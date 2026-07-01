@@ -1,0 +1,12 @@
+﻿Date;Time;Severity;Message
+2026/06/25;13:47:02.839;INFO;[Config    ] Configuring the converter.;
+2026/06/25;13:47:02.840;INFO;[Config    ] Configuration finished successfully..;
+2026/06/25;13:47:02.840;INFO;================================================================================;
+2026/06/25;13:47:02.840;INFO;[Validation] Validating acc_csc_001_001.xosc.;
+2026/06/25;13:47:02.840;INFO;--------------------------------------------------------------------------------;
+2026/06/25;13:47:02.849;ERROR;[Validation][API    ] [ERROR] Cannot resolve catalog directory './Catalogs/Controllers' () (21, 17);
+2026/06/25;13:47:02.856;ERROR;[Validation][API    ] [ERROR] Cannot resolve catalog directory './Catalogs/Pedestrians' () (15, 17);
+2026/06/25;13:47:02.856;ERROR;[Validation][API    ] [ERROR] Cannot resolve catalog directory './Catalogs/Trajectory' () (18, 17);
+2026/06/25;13:47:02.856;ERROR;[Validation][API    ] [ERROR] Cannot resolve entry 'DefaultDriver' in catalog 'ControllerCatalog' (34, 8);
+2026/06/25;13:47:02.856;ERROR;[Validation] Validation failed with 4 errors and 0 warnings.;
+2026/06/25;13:47:02.857;FATAL;[Validation] Failed to validate acc_csc_001_001.xosc.;

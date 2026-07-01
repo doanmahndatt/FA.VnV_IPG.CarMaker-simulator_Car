@@ -1,0 +1,64 @@
+APPLICATION	CarMaker 15.1 - Car_Generic #3 (win64-15.1)
+COMPILED	jetbrains@16d9601a3450 2026-05-05 10:47:07
+ 
+		I/O Configuration: default
+FIRST_INIT	(internal default used)	2026-06-25 13:51:02
+TIME	0.000
+SIM_END			0s	0m
+IDLE	13:51:03
+SIM_START	acc_csc_003	2026-06-25 13:51:03
+TIME	0.002
+ERROR		Vehicle StartPos: Failed to get start position in Fr1 on path list (xy=-1 -8)
+SIM_ABORT	acc_csc_003	0s	0m
+TIME	18.102
+SIM_START	acc_csc_003_002	2026-06-25 13:54:04
+TIME	0.001
+ERROR		Vehicle StartPos: Failed to get start position in Fr1 on path list (xy=-1 -8)
+SIM_ABORT	acc_csc_003_002	0s	0m
+SIM_START	acc_csc_003_002	2026-06-25 13:54:13
+TIME	0.002
+ERROR		Vehicle StartPos: Failed to get start position in Fr1 on path list (xy=-0.74 -8)
+SIM_ABORT	acc_csc_003_002	0s	0m
+TIME	12.650
+SIM_START	acc_csc_003_003	2026-06-25 13:56:20
+TIME	0.005
+		Road Sensor: evaluation of route/path disabled (works only on route)
+		Current random seed value = 1782370580
+TIME	0.000
+SIMULATE	acc_csc_003_003
+
+TIME	39.855
+SIM_END		acc_csc_003_003	39.852s	597.365m
+TIME	43.134
+SIM_START	acc_csc_003_003	2026-06-25 13:57:33
+TIME	0.003
+		Road Sensor: evaluation of route/path disabled (works only on route)
+		Current random seed value = 1782370653
+TIME	0.000
+SIMULATE	acc_csc_003_003
+
+TIME	39.233
+SIM_END		acc_csc_003_003	39.23s	588.037m
+TIME	43.508
+SIM_START	acc_csc_003_003	2026-06-25 13:58:57
+TIME	0.002
+		Road Sensor: evaluation of route/path disabled (works only on route)
+		Current random seed value = 1782370737
+TIME	0.000
+SIMULATE	acc_csc_003_003
+
+TIME	60.004
+SIM_END		acc_csc_003_003	60.002s	899.63m
+TIME	65.222
+SIM_START	acc_csc_003_003	2026-06-25 14:00:50
+TIME	0.002
+		Road Sensor: evaluation of route/path disabled (works only on route)
+		Current random seed value = 1782370850
+TIME	0.000
+SIMULATE	acc_csc_003_003
+
+TIME	39.392
+SIM_END		acc_csc_003_003	39.389s	590.427m
+TIME	193.957
+SHUTDOWN	CarMaker quick shutdown initiated
+

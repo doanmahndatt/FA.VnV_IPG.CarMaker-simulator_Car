@@ -1,0 +1,11 @@
+﻿Date;Time;Severity;Message
+2026/06/25;13:25:52.436;INFO;[Config    ] Configuring the converter.;
+2026/06/25;13:25:52.444;INFO;[Config    ] Configuration finished successfully..;
+2026/06/25;13:25:52.444;INFO;================================================================================;
+2026/06/25;13:25:52.444;INFO;[Validation] Validating acc_csc_003_002.xosc.;
+2026/06/25;13:25:52.445;INFO;--------------------------------------------------------------------------------;
+2026/06/25;13:25:52.449;ERROR;[Validation][API    ] [ERROR] Required attribute 'roadId' is missing  (46, 16);
+2026/06/25;13:25:52.449;ERROR;[Validation][API    ] [ERROR] Too many elements of <ParameterDeclarations>  (1) has already reached (10, 2);
+2026/06/25;13:25:52.449;ERROR;[Validation][API    ] [ERROR] Unknown attribute 'roadID' (46, 30);
+2026/06/25;13:25:52.449;ERROR;[Validation] Validation failed with 3 errors and 0 warnings.;
+2026/06/25;13:25:52.450;FATAL;[Validation] Failed to validate acc_csc_003_002.xosc.;

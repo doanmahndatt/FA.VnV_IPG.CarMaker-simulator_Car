@@ -1,0 +1,12 @@
+APPLICATION	CarMaker 15.1 - Car_Generic #3 (win64-15.1)
+COMPILED	jetbrains@16d9601a3450 2026-05-05 10:47:07
+ 
+		I/O Configuration: default
+ERROR		Unable to obtain CarMaker license: too many licenses in use (-17)
+		System: cpp00372923b sysid 306340190 ether 10:ff:e0:5a:f0:ea
+		License file: C:\IPG\etc\Licenses.dat
+		
+ERROR		FATAL ERROR - Application stopped
+		Eliminate the error and restart the application
+SHUTDOWN	CarMaker quick shutdown initiated
+

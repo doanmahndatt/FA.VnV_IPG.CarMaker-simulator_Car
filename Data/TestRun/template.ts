@@ -1,0 +1,52 @@
+#INFOFILE1.1 (UTF-8) - Do not remove this line!
+FileIdent = CarMaker-TestSeries 15
+FileCreator = CarMaker Office 15.1
+Description:
+LastChange = 2026-06-26 12:55:33 ADAS
+StartTime = 2026-06-26 12:48:31
+EndTime = 2026-06-26 12:49:46
+ReportTemplate =
+Step.0 = Settings
+Step.0.Name = Global Settings
+Step.1 = Group
+Step.1.Name = Batch_XOSC_Test
+Step.1.0 = Cmd
+Step.1.0.Name = Script Control Commands
+Step.1.0.Cmd:
+Step.1.1 = Vehicle
+Step.1.1.Name = TeslaY.ADAS_ACC
+Step.1.1.Vehicle = TeslaY.ADAS_ACC
+Step.1.1.Trailer =
+Step.1.1.Tires = Examples/RT_195_65R15
+Step.1.1.Load.0 = 70 2.4 -0.5 1.5 0 0 0 0
+Step.1.1.Load.1 = 70 2.4 0.5 1.5 0 0 0 0
+Step.1.1.Load.2 = 70 1.4 -0.5 1.5 0 0 0 1
+Step.1.1.Load.3 = 70 1.4 0.5 1.5 0 0 0 1
+Step.1.1.Description:
+Step.1.2 = TestRun
+Step.1.2.Name = OSC_Imported/longitudinal_feature/ACC/acc_csc_003
+Step.1.2.Result = good
+Step.1.2.ResDate = 1782449365
+Step.1.3 = TestRun
+Step.1.3.Name = acc_csc_004_001
+Step.1.3.Param.0 = EgoSpeed NValue
+Step.1.3.Param.1 = TVSpeed NValue
+Step.1.3.Param.2 = TV_initPos NValue
+Step.1.3.Var.0.Name = base
+Step.1.3.Var.0.Param = {} {} {}
+Step.1.3.Var.0.Result = err
+Step.1.3.Var.0.ResDate = 1782449386
+Step.1.3.Var.0.Log.0.Time = 18.466
+Step.1.3.Var.0.Log.0.Kind = err
+Step.1.3.Var.0.Log.0.Text = Simulation stopped by user
+Step.1.3.Var.1.Name = test_01
+Step.1.3.Var.1.Param = 5 10 40
+Step.1.3.Var.1.Result = good
+Step.1.3.Var.1.ResDate = 1782447618
+Step.1.3.Var.2.Name = test_02
+Step.1.3.Var.2.Param = 20 15 150
+Step.1.3.Var.2.Result = err
+Step.1.3.Var.2.ResDate = 1782447627
+Step.1.3.Var.2.Log.0.Time = 4.471
+Step.1.3.Var.2.Log.0.Kind = err
+Step.1.3.Var.2.Log.0.Text = Simulation stopped by user

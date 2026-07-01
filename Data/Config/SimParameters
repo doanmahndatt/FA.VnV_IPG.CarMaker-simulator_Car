@@ -1,0 +1,9 @@
+#INFOFILE1.1 (UTF-8) - Do not remove this line!
+FileIdent = CarMaker-SimParameters 3
+
+FMU.Logging.ToFile = 1
+GenericPlugin.CM_ACCController_V17.AbsPlace = VC
+GenericPlugin.CM_ACCController_V17.LocalPos = 0
+
+GenericPlugin.CM_AEBController.AbsPlace = VC
+GenericPlugin.CM_AEBController.LocalPos = 0

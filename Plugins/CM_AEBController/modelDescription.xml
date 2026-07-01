@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fmiModelDescription fmiVersion="2.0" modelName="AEBController" guid="e30db013-74fd-11f1-972e-396cd10eb95e" generationTool="PythonFMU 0.6.9" generationDateAndTime="2026-07-01T03:35:21+00:00" variableNamingConvention="structured">
+	<CoSimulation needsExecutionTool="true" canHandleVariableCommunicationStepSize="true" canInterpolateInputs="false" canBeInstantiatedOnlyOncePerProcess="false" canGetAndSetFMUstate="false" canSerializeFMUstate="false" modelIdentifier="AEBController" canNotUseMemoryManagementFunctions="true" />
+	<UnitDefinitions><Unit name="m"><BaseUnit m="1" /></Unit><Unit name="m/s"><BaseUnit m="1" s="-1" /></Unit><Unit name="s"><BaseUnit s="1" /></Unit></UnitDefinitions><LogCategories>
+		<Category name="logStatusWarning" description="Log messages with fmi2Warning status." />
+		<Category name="logStatusDiscard" description="Log messages with fmi2Discard status." />
+		<Category name="logStatusError" description="Log messages with fmi2Error status." />
+		<Category name="logStatusFatal" description="Log messages with fmi2Fatal status." />
+		<Category name="logAll" description="Log all messages." />
+	</LogCategories>
+	<ModelVariables>
+		<ScalarVariable name="DM.Brake" valueReference="0" causality="input">
+			<Real start="0" />
+		</ScalarVariable>
+		<ScalarVariable name="DM.Gas" valueReference="1" causality="input">
+			<Real start="0" />
+		</ScalarVariable>
+		<ScalarVariable name="DM.SelectorCtrl" valueReference="2" causality="input">
+			<Real start="1" />
+		</ScalarVariable>
+		<ScalarVariable name="AEB_Enable" valueReference="3" causality="input">
+			<Real start="1" />
+		</ScalarVariable>
+		<ScalarVariable name="Ego_v" valueReference="4" causality="input">
+			<Real start="0" unit="m/s" quantity="Velocity" />
+		</ScalarVariable>
+		<ScalarVariable name="Radar_nObj" valueReference="5" causality="input">
+			<Real start="4" />
+		</ScalarVariable>
+		<ScalarVariable name="AEB_WarningTTC" valueReference="6" causality="input">
+			<Real start="2.2" unit="s" quantity="Time" />
+		</ScalarVariable>
+		<ScalarVariable name="AEB_BrakeTTC" valueReference="7" causality="input">
+			<Real start="1.6" unit="s" quantity="Time" />
+		</ScalarVariable>
+		<ScalarVariable name="AEB_HardBrakeDistance" valueReference="8" causality="input">
+			<Real start="4" unit="m" quantity="Length" />
+		</ScalarVariable>
+		<ScalarVariable name="AEB_MinClosingSpeed" valueReference="9" causality="input">
+			<Real start="0.5" unit="m/s" quantity="Velocity" />
+		</ScalarVariable>
+		<ScalarVariable name="AEB_MinDistance" valueReference="10" causality="input">
+			<Real start="5" unit="m" quantity="Length" />
+		</ScalarVariable>
+		<ScalarVariable name="AEB_MaxDist" valueReference="11" causality="input">
+			<Real start="150" unit="m" quantity="Length" />
+		</ScalarVariable>
+		<ScalarVariable name="AEB_SafeTimeGap" valueReference="12" causality="input">
+			<Real start="0.5" unit="s" quantity="Time" />
+		</ScalarVariable>
+		<ScalarVariable name="AEB_LaneGateY" valueReference="13" causality="input">
+			<Real start="1.35" unit="m" quantity="Length" />
+		</ScalarVariable>
+		<ScalarVariable name="AEB_ProbExistMin" valueReference="14" causality="input">
+			<Real start="3" />
+		</ScalarVariable>
+		<ScalarVariable name="AEB_RadarMeasStatValidValue" valueReference="15" causality="input">
+			<Real start="3" />
+		</ScalarVariable>
+		<ScalarVariable name="AEB_TargetPersistTime" valueReference="16" causality="input">
+			<Real start="0.25" unit="s" quantity="Time" />
+		</ScalarVariable>
+		<ScalarVariable name="AEB_ParkSpeedThreshold" valueReference="17" causality="input">
+			<Real start="0.2" unit="m/s" quantity="Velocity" />
+		</ScalarVariable>
+		<ScalarVariable name="Radar_Obj0_DistX" valueReference="18" causality="input">
+			<Real start="999" unit="m" quantity="Length" />
+		</ScalarVariable>
+		<ScalarVariable name="Radar_Obj0_DistY" valueReference="19" causality="input">
+			<Real start="999" unit="m" quantity="Length" />
+		</ScalarVariable>
+		<ScalarVariable name="Radar_Obj0_DynProp" valueReference="20" causality="input">
+			<Real start="0" />
+		</ScalarVariable>
+		<ScalarVariable name="Radar_Obj0_MeasStat" valueReference="21" causality="input">
+			<Real start="0" />
+		</ScalarVariable>
+		<ScalarVariable name="Radar_Obj0_ObjID" valueReference="22" causality="input">
+			<Real start="-1" />
+		</ScalarVariable>
+		<ScalarVariable name="Radar_Obj0_ProbExist" valueReference="23" causality="input">
+			<Real start="0" />
+		</ScalarVariable>
+		<ScalarVariable name="Radar_Obj0_VrelX" valueReference="24" causality="input">
+			<Real start="0" unit="m/s" quantity="Velocity" />
+		</ScalarVariable>
+		<ScalarVariable name="Radar_Obj1_DistX" valueReference="25" causality="input">
+			<Real start="999" unit="m" quantity="Length" />
+		</ScalarVariable>
+		<ScalarVariable name="Radar_Obj1_DistY" valueReference="26" causality="input">
+			<Real start="999" unit="m" quantity="Length" />
+		</ScalarVariable>
+		<ScalarVariable name="Radar_Obj1_DynProp" valueReference="27" causality="input">
+			<Real start="0" />
+		</ScalarVariable>
+		<ScalarVariable name="Radar_Obj1_MeasStat" valueReference="28" causality="input">
+			<Real start="0" />
+		</ScalarVariable>
+		<ScalarVariable name="Radar_Obj1_ObjID" valueReference="29" causality="input">
+			<Real start="-1" />
+		</ScalarVariable>
+		<ScalarVariable name="Radar_Obj1_ProbExist" valueReference="30" causality="input">
+			<Real start="0" />
+		</ScalarVariable>
+		<ScalarVariable name="Radar_Obj1_VrelX" valueReference="31" causality="input">
+			<Real start="0" unit="m/s" quantity="Velocity" />
+		</ScalarVariable>
+		<ScalarVariable name="Radar_Obj2_DistX" valueReference="32" causality="input">
+			<Real start="999" unit="m" quantity="Length" />
+		</ScalarVariable>
+		<ScalarVariable name="Radar_Obj2_DistY" valueReference="33" causality="input">
+			<Real start="999" unit="m" quantity="Length" />
+		</ScalarVariable>
+		<ScalarVariable name="Radar_Obj2_DynProp" valueReference="34" causality="input">
+			<Real start="0" />
+		</ScalarVariable>
+		<ScalarVariable name="Radar_Obj2_MeasStat" valueReference="35" causality="input">
+			<Real start="0" />
+		</ScalarVariable>
+		<ScalarVariable name="Radar_Obj2_ObjID" valueReference="36" causality="input">
+			<Real start="-1" />
+		</ScalarVariable>
+		<ScalarVariable name="Radar_Obj2_ProbExist" valueReference="37" causality="input">
+			<Real start="0" />
+		</ScalarVariable>
+		<ScalarVariable name="Radar_Obj2_VrelX" valueReference="38" causality="input">
+			<Real start="0" unit="m/s" quantity="Velocity" />
+		</ScalarVariable>
+		<ScalarVariable name="Radar_Obj3_DistX" valueReference="39" causality="input">
+			<Real start="999" unit="m" quantity="Length" />
+		</ScalarVariable>
+		<ScalarVariable name="Radar_Obj3_DistY" valueReference="40" causality="input">
+			<Real start="999" unit="m" quantity="Length" />
+		</ScalarVariable>
+		<ScalarVariable name="Radar_Obj3_DynProp" valueReference="41" causality="input">
+			<Real start="0" />
+		</ScalarVariable>
+		<ScalarVariable name="Radar_Obj3_MeasStat" valueReference="42" causality="input">
+			<Real start="0" />
+		</ScalarVariable>
+		<ScalarVariable name="Radar_Obj3_ObjID" valueReference="43" causality="input">
+			<Real start="-1" />
+		</ScalarVariable>
+		<ScalarVariable name="Radar_Obj3_ProbExist" valueReference="44" causality="input">
+			<Real start="0" />
+		</ScalarVariable>
+		<ScalarVariable name="Radar_Obj3_VrelX" valueReference="45" causality="input">
+			<Real start="0" unit="m/s" quantity="Velocity" />
+		</ScalarVariable>
+		<ScalarVariable name="VehicleControl.Brake" valueReference="46" causality="output">
+			<Real />
+		</ScalarVariable>
+		<ScalarVariable name="VehicleControl.BrakePark" valueReference="47" causality="output">
+			<Real />
+		</ScalarVariable>
+		<ScalarVariable name="VehicleControl.Gas" valueReference="48" causality="output">
+			<Real />
+		</ScalarVariable>
+		<ScalarVariable name="VehicleControl.SelectorCtrl" valueReference="49" causality="output">
+			<Real />
+		</ScalarVariable>
+		<ScalarVariable name="VehicleControl.Lights.Brake" valueReference="50" causality="output">
+			<Real />
+		</ScalarVariable>
+		<ScalarVariable name="LongCtrl.AEB.SwitchedOn" valueReference="51" causality="output">
+			<Real />
+		</ScalarVariable>
+		<ScalarVariable name="LongCtrl.AEB.IsActive" valueReference="52" causality="output">
+			<Real />
+		</ScalarVariable>
+		<ScalarVariable name="LongCtrl.AEB.Time2Collision" valueReference="53" causality="output">
+			<Real unit="s" quantity="Time" />
+		</ScalarVariable>
+		<ScalarVariable name="LongCtrl.AEB.dDist" valueReference="54" causality="output">
+			<Real unit="m" quantity="Length" />
+		</ScalarVariable>
+		<ScalarVariable name="LongCtrl.AEB.dVel" valueReference="55" causality="output">
+			<Real unit="m/s" quantity="Velocity" />
+		</ScalarVariable>
+		<ScalarVariable name="LongCtrl.AEB.Target.ObjId" valueReference="56" causality="output">
+			<Real />
+		</ScalarVariable>
+		<ScalarVariable name="LongCtrl.AEB.Target.Vel" valueReference="57" causality="output">
+			<Real unit="m/s" quantity="Velocity" />
+		</ScalarVariable>
+		<ScalarVariable name="LongCtrl.FCW.SwitchedOn" valueReference="58" causality="output">
+			<Real />
+		</ScalarVariable>
+		<ScalarVariable name="LongCtrl.FCW.WarnLevel" valueReference="59" causality="output">
+			<Real />
+		</ScalarVariable>
+		<ScalarVariable name="AEB_State" valueReference="60" causality="output">
+			<Real />
+		</ScalarVariable>
+		<ScalarVariable name="AEB_TargetValid" valueReference="61" causality="output">
+			<Real />
+		</ScalarVariable>
+		<ScalarVariable name="AEB_Warning" valueReference="62" causality="output">
+			<Real />
+		</ScalarVariable>
+		<ScalarVariable name="Debug_TTC" valueReference="63" causality="output">
+			<Real unit="s" quantity="Time" />
+		</ScalarVariable>
+		<ScalarVariable name="Debug_TargetDistX" valueReference="64" causality="output">
+			<Real unit="m" quantity="Length" />
+		</ScalarVariable>
+		<ScalarVariable name="Debug_TargetDistY" valueReference="65" causality="output">
+			<Real unit="m" quantity="Length" />
+		</ScalarVariable>
+		<ScalarVariable name="Debug_TargetObjID" valueReference="66" causality="output">
+			<Real />
+		</ScalarVariable>
+		<ScalarVariable name="Debug_EgoSpeed_mps" valueReference="67" causality="output">
+			<Real unit="m/s" quantity="Velocity" />
+		</ScalarVariable>
+		<ScalarVariable name="Debug_LeadSpeed_mps" valueReference="68" causality="output">
+			<Real unit="m/s" quantity="Velocity" />
+		</ScalarVariable>
+		<ScalarVariable name="Debug_RelativeSpeed" valueReference="69" causality="output">
+			<Real unit="m/s" quantity="Velocity" />
+		</ScalarVariable>
+		<ScalarVariable name="Debug_SafeDistance" valueReference="70" causality="output">
+			<Real unit="m" quantity="Length" />
+		</ScalarVariable>
+		<ScalarVariable name="Debug_SelectedRadarIndex" valueReference="71" causality="output">
+			<Real />
+		</ScalarVariable>
+		<ScalarVariable name="Debug_RadarCandidateCount" valueReference="72" causality="output">
+			<Real />
+		</ScalarVariable>
+	</ModelVariables>
+	<ModelStructure>
+		<Outputs>
+			<Unknown index="47" />
+			<Unknown index="48" />
+			<Unknown index="49" />
+			<Unknown index="50" />
+			<Unknown index="51" />
+			<Unknown index="52" />
+			<Unknown index="53" />
+			<Unknown index="54" />
+			<Unknown index="55" />
+			<Unknown index="56" />
+			<Unknown index="57" />
+			<Unknown index="58" />
+			<Unknown index="59" />
+			<Unknown index="60" />
+			<Unknown index="61" />
+			<Unknown index="62" />
+			<Unknown index="63" />
+			<Unknown index="64" />
+			<Unknown index="65" />
+			<Unknown index="66" />
+			<Unknown index="67" />
+			<Unknown index="68" />
+			<Unknown index="69" />
+			<Unknown index="70" />
+			<Unknown index="71" />
+			<Unknown index="72" />
+			<Unknown index="73" />
+		</Outputs>
+	</ModelStructure>
+</fmiModelDescription>

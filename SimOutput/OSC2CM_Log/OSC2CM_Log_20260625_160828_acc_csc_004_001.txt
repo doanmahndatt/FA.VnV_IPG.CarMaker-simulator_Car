@@ -1,0 +1,9 @@
+﻿Date;Time;Severity;Message
+2026/06/25;16:08:28.119;INFO;[Config    ] Configuring the converter.;
+2026/06/25;16:08:28.120;INFO;[Config    ] Configuration finished successfully..;
+2026/06/25;16:08:28.120;INFO;================================================================================;
+2026/06/25;16:08:28.120;INFO;[Validation] Validating acc_csc_004_001.xosc.;
+2026/06/25;16:08:28.121;INFO;--------------------------------------------------------------------------------;
+2026/06/25;16:08:28.128;ERROR;[Validation][API    ] [ERROR] Parameter '$EgoSpeed' is not defined. (48, 46);
+2026/06/25;16:08:28.128;ERROR;[Validation] Validation failed with 1 errors and 0 warnings.;
+2026/06/25;16:08:28.129;FATAL;[Validation] Failed to validate acc_csc_004_001.xosc.;

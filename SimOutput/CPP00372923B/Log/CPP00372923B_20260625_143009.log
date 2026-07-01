@@ -1,0 +1,392 @@
+APPLICATION	CarMaker 15.1 - Car_Generic #3 (win64-15.1)
+COMPILED	jetbrains@16d9601a3450 2026-05-05 10:47:07
+ 
+		I/O Configuration: default
+FIRST_INIT	(internal default used)	2026-06-25 14:30:09
+TIME	0.000
+SIM_END			0s	0m
+IDLE	14:30:09
+SIM_START	test_double_lanechange_trajectory	2026-06-25 14:30:11
+TIME	0.003
+		Road Sensor: evaluation of route/path disabled (works only on route)
+		Current random seed value = 1782372611
+TIME	0.000
+SIMULATE	test_double_lanechange_trajectory
+
+TIME	8.025
+SIM_END		test_double_lanechange_trajectory	8.022s	220.649m
+SIM_START	test_double_lanechange_trajectory	2026-06-25 14:30:27
+TIME	8.537
+		Environment Generic: model disabled for entire Test Run (works only on route)
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+ERROR		Missing entry 'PowerTrain.Gearbox.0.iForwardGears', file 'Data/Vehicle/TeslaY.ADAS_ACC'
+ERROR		No entry 'PowerTrain.DL.iDiff', file 'Data/Vehicle/TeslaY.ADAS_ACC'
+		Current random seed value = 1782372627
+SIM_ABORT	test_double_lanechange_trajectory	0s	0m
+TIME	2.703
+SIM_START	test_double_lanechange_trajectory	2026-06-25 14:30:47
+TIME	2.703
+		Environment Generic: model disabled for entire Test Run (works only on route)
+TIME	0.003
+		Road Sensor: evaluation of route/path disabled (works only on route)
+		Current random seed value = 1782372647
+TIME	0.000
+SIMULATE	test_double_lanechange_trajectory
+
+TIME	22.706
+ERROR		Vehicle leaves road at about x=626.082, y=-12.3229 TireNo=1
+SIM_ABORT	test_double_lanechange_trajectory	22.707s	622.22m
+TIME	68.941
+SIM_START	test_double_lanechange_trajectory	2026-06-25 14:38:53
+TIME	68.941
+		Environment Generic: model disabled for entire Test Run (works only on route)
+TIME	0.003
+		Road Sensor: evaluation of route/path disabled (works only on route)
+		Current random seed value = 1782373133
+TIME	0.000
+SIMULATE	test_double_lanechange_trajectory
+
+TIME	10.933
+SIM_END		test_double_lanechange_trajectory	10.93s	300.49m
+TIME	19.507
+SIM_START	test_double_lanechange_trajectory	2026-06-25 14:40:31
+TIME	19.507
+		Environment Generic: model disabled for entire Test Run (works only on route)
+TIME	0.003
+		Road Sensor: evaluation of route/path disabled (works only on route)
+		Current random seed value = 1782373231
+TIME	0.000
+SIMULATE	test_double_lanechange_trajectory
+
+SIM_END		test_double_lanechange_trajectory	0.389s	10.7631m
+TIME	2.846
+SIM_START	test_double_lanechange_trajectory	2026-06-25 14:40:58
+TIME	2.846
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260625-144058.log'
+TIME	0.003
+		Environment Generic: model disabled for entire Test Run (works only on route)
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782373258
+TIME	0.000
+SIMULATE	test_double_lanechange_trajectory
+
+TIME	24.021
+ERROR		Vehicle leaves road at about x=626.096, y=-12.3227 TireNo=1
+SIM_ABORT	test_double_lanechange_trajectory	24.022s	622.234m
+TIME	28.894
+SIM_START	acc_csc_001_001	2026-06-25 14:42:12
+TIME	28.894
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260625-144212.log'
+		Environment Generic: model disabled for entire Test Run (works only on route)
+TIME	0.003
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782373332
+TIME	0.000
+SIMULATE	acc_csc_001_001
+
+TIME	41.633
+ERROR		Vehicle leaves road at about x=637.32, y=-8.82271 TireNo=1
+SIM_ABORT	acc_csc_001_001	41.634s	624.446m
+TIME	125.360
+SIM_START	acc_csc_002_001	2026-06-25 14:56:52
+TIME	125.360
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260625-145652.log'
+TIME	0.002
+		Environment Generic: model disabled for entire Test Run (works only on route)
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782374212
+TIME	0.000
+SIMULATE	acc_csc_002_001
+
+TIME	49.610
+SIM_END		acc_csc_002_001	49.607s	562.288m
+SIM_START	acc_csc_002_001	2026-06-25 14:57:49
+TIME	50.185
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260625-145749.log'
+TIME	0.001
+		Environment Generic: model disabled for entire Test Run (works only on route)
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782374269
+TIME	0.000
+SIMULATE	acc_csc_002_001
+
+TIME	51.917
+ERROR		Vehicle leaves road at about x=637.313, y=-8.82269 TireNo=1
+SIM_ABORT	acc_csc_002_001	51.918s	624.439m
+TIME	60.907
+SIM_START	acc_csc_003_001	2026-06-25 15:00:12
+TIME	60.907
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260625-150012.log'
+TIME	0.003
+		Environment Generic: model disabled for entire Test Run (works only on route)
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782374412
+TIME	0.000
+SIMULATE	acc_csc_003_001
+
+TIME	11.055
+SIM_END		acc_csc_003_001	11.053s	165.589m
+TIME	21.065
+SIM_START	acc_csc_003_001	2026-06-25 15:02:05
+TIME	21.065
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260625-150205.log'
+		Environment Generic: model disabled for entire Test Run (works only on route)
+TIME	0.003
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782374525
+TIME	0.000
+SIMULATE	acc_csc_003_001
+
+TIME	30.030
+SIM_END		acc_csc_003_001	30.027s	456.009m
+TIME	36.187
+SIM_START	acc_csc_003_001	2026-06-25 15:03:38
+TIME	36.187
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260625-150338.log'
+		Environment Generic: model disabled for entire Test Run (works only on route)
+TIME	0.003
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782374618
+TIME	0.000
+SIMULATE	acc_csc_003_001
+
+TIME	15.288
+SIM_END		acc_csc_003_001	15.285s	218.876m
+TIME	20.909
+SIM_START	acc_csc_004_001	2026-06-25 15:04:51
+TIME	20.909
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260625-150451.log'
+TIME	0.002
+		Environment Generic: model disabled for entire Test Run (works only on route)
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782374691
+TIME	0.000
+SIMULATE	acc_csc_004_001
+
+TIME	52.297
+ERROR		Vehicle leaves road at about x=637.321, y=-8.82269 TireNo=1
+SIM_ABORT	acc_csc_004_001	52.298s	624.446m
+TIME	56.761
+SIM_START	acc_csc_004_001	2026-06-25 15:06:29
+TIME	56.761
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260625-150629.log'
+TIME	0.003
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782374789
+SIM_END		acc_csc_004_001	0s	0m
+SIM_START	acc_csc_004_001	2026-06-25 15:06:34
+TIME	0.602
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260625-150634.log'
+TIME	0.003
+		Environment Generic: model disabled for entire Test Run (works only on route)
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782374794
+TIME	0.000
+SIMULATE	acc_csc_004_001
+
+TIME	50.005
+SIM_END		acc_csc_004_001	50.002s	584.984m
+TIME	72.422
+SIM_START	acc_csc_004_001	2026-06-25 15:11:10
+TIME	72.422
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260625-151110.log'
+TIME	0.003
+		Environment Generic: model disabled for entire Test Run (works only on route)
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782375070
+TIME	0.000
+SIMULATE	acc_csc_004_001
+
+TIME	50.005
+SIM_END		acc_csc_004_001	50.002s	591.332m
+TIME	56.349
+SIM_START	acc_csc_004_001	2026-06-25 15:13:04
+TIME	56.349
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260625-151304.log'
+TIME	0.002
+		Environment Generic: model disabled for entire Test Run (works only on route)
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782375185
+TIME	0.000
+SIMULATE	acc_csc_004_001
+
+TIME	50.005
+SIM_END		acc_csc_004_001	50.002s	586.225m
+TIME	139.024
+SIM_START	acc_csc_004_001	2026-06-25 15:28:47
+TIME	139.024
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260625-152847.log'
+		Environment Generic: model disabled for entire Test Run (works only on route)
+TIME	0.003
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782376127
+TIME	0.000
+SIMULATE	acc_csc_004_001
+
+TIME	50.004
+WARNING		One or more named values were never referenced
+		Unreferenced named value 'EgoSpeed'
+		Unreferenced named value 'TVSpeed'
+		Unreferenced named value 'TV_initPos'
+SIM_END		acc_csc_004_001	50.002s	527.444m
+SIM_START	acc_csc_004_001	2026-06-25 15:29:44
+TIME	50.476
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260625-152944.log'
+TIME	0.002
+		Environment Generic: model disabled for entire Test Run (works only on route)
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782376184
+TIME	0.000
+SIMULATE	acc_csc_004_001
+
+TIME	50.004
+WARNING		One or more named values were never referenced
+		Unreferenced named value 'EgoSpeed'
+		Unreferenced named value 'TVSpeed'
+		Unreferenced named value 'TV_initPos'
+SIM_END		acc_csc_004_001	50.002s	523.216m
+TIME	159.133
+SIM_START	acc_csc_004_001	2026-06-25 15:48:47
+TIME	159.133
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260625-154847.log'
+TIME	0.003
+		Environment Generic: model disabled for entire Test Run (works only on route)
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782377327
+TIME	0.000
+SIMULATE	acc_csc_004_001
+
+TIME	50.004
+WARNING		One or more named values were never referenced
+		Unreferenced named value 'EgoSpeed'
+		Unreferenced named value 'TVSpeed'
+		Unreferenced named value 'TV_initPos'
+SIM_END		acc_csc_004_001	50.002s	524.155m
+SIM_START	acc_csc_004_001	2026-06-25 15:49:45
+TIME	50.523
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260625-154945.log'
+TIME	0.003
+		Environment Generic: model disabled for entire Test Run (works only on route)
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782377385
+TIME	0.000
+SIMULATE	acc_csc_004_001
+
+TIME	50.005
+WARNING		One or more named values were never referenced
+		Unreferenced named value 'EgoSpeed'
+		Unreferenced named value 'TVSpeed'
+		Unreferenced named value 'TV_initPos'
+SIM_END		acc_csc_004_001	50.002s	522.415m
+SIM_START	acc_csc_007_001	2026-06-25 15:50:43
+TIME	50.581
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260625-155043.log'
+TIME	0.003
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782377443
+TIME	0.000
+SIMULATE	acc_csc_007_001
+
+TIME	24.660
+ERROR		Vehicle leaves road at about x=637.32, y=-8.8219 TireNo=1
+SIM_ABORT	acc_csc_007_001	24.661s	624.455m
+TIME	158.038
+SIM_START	acc_csc_004_001	2026-06-25 16:13:24
+TIME	158.038
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260625-161324.log'
+TIME	0.002
+		Environment Generic: model disabled for entire Test Run (works only on route)
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782378804
+TIME	0.000
+SIMULATE	acc_csc_004_001
+
+TIME	5.834
+SIM_END		acc_csc_004_001	5.831s	87.1226m
+SIM_START	acc_csc_004_001	2026-06-25 16:13:44
+TIME	6.990
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260625-161344.log'
+TIME	0.002
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782378824
+TIME	0.000
+SIMULATE	acc_csc_004_001
+
+TIME	50.004
+WARNING		One or more named values were never referenced
+		Unreferenced named value 'EgoSpeed'
+		Unreferenced named value 'TVSpeed'
+		Unreferenced named value 'TV_initPos'
+SIM_END		acc_csc_004_001	50.002s	523.537m
+SIM_START	acc_csc_004_001	2026-06-25 16:14:41
+TIME	50.530
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260625-161441.log'
+TIME	0.003
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782378881
+TIME	0.000
+SIMULATE	acc_csc_004_001
+
+TIME	50.005
+WARNING		One or more named values were never referenced
+		Unreferenced named value 'EgoSpeed'
+		Unreferenced named value 'TVSpeed'
+		Unreferenced named value 'TV_initPos'
+SIM_END		acc_csc_004_001	50.002s	523.801m
+TIME	73.157
+SIM_START	acc_csc_004_001	2026-06-25 16:19:25
+TIME	73.157
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260625-161925.log'
+TIME	0.003
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782379165
+TIME	0.000
+SIMULATE	acc_csc_004_001
+
+TIME	50.004
+WARNING		One or more named values were never referenced
+		Unreferenced named value 'EgoSpeed'
+		Unreferenced named value 'TVSpeed'
+		Unreferenced named value 'TV_initPos'
+SIM_END		acc_csc_004_001	50.002s	522.568m
+SIM_START	acc_csc_004_001	2026-06-25 16:20:23
+TIME	50.556
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260625-162023.log'
+TIME	0.002
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782379223
+TIME	0.000
+SIMULATE	acc_csc_004_001
+
+TIME	3.094
+WARNING		One or more named values were never referenced
+		Unreferenced named value 'EgoSpeed'
+		Unreferenced named value 'TVSpeed'
+		Unreferenced named value 'TV_initPos'
+SIM_END		acc_csc_004_001	3.091s	46.1069m
+TIME	47.797
+SHUTDOWN	CarMaker quick shutdown initiated
+

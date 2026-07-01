@@ -1,0 +1,96 @@
+#INFOFILE1.1 (UTF-8) - Do not remove this line!
+FileIdent = CarMaker-TestRun 15
+FileCreator = OpenSCENARIO Converter 15.1.0
+Description:
+	TestRun converted from acc_csc_002_001.xosc
+Road.FName = ALKS_Road_Different_Curvatures.rd5
+Vehicle.DriverTemplate.FName = Car_Normal_osc
+Vehicle.KnowledgeTemplate.Name =
+Vehicle.UserDriver.Long.FName =
+DrivMan.Global.EndCond = rise(Time > 50.000)
+DrivMan.Long.DefaultCtrl.UsePreviousTrgt = 1
+DrivMan.Long.VelTransition.Linear.Extrp = 1
+DrivMan.Man.0.CombinedSteps = 0
+DrivMan.Man.0.ConsiderDomain = all
+DrivMan.Man.0.EndCond =
+DrivMan.Man.0.Info = act_1->Ego_cruise_control->Ego_cruise_control_maneuver->Ego_cruise_event
+DrivMan.Man.0.LongStep.0.Cmds:
+DrivMan.Man.0.LongStep.0.Dyn = VelTransition 15.000 linear
+DrivMan.Man.0.LongStep.0.EndCond =
+DrivMan.Man.0.LongStep.0.Info = Ego_cruise_action
+DrivMan.Man.0.LongStep.0.Label =
+DrivMan.Man.0.LongStep.0.TimeLimit = 40.000
+DrivMan.Man.0.MaxExec = 1
+DrivMan.Man.0.StartCond = rise(Time > 0.000)
+DrivMan.Man.0.Transition.EndCond = terminate
+DrivMan.Man.0.Transition.Interrupt = terminate
+DrivMan.Man.0.Transition.SimultanStart = end
+DrivMan.Man.0.nLatSteps = 0
+DrivMan.Man.0.nLongSteps = 1
+DrivMan.Man.1.CombinedSteps = 0
+DrivMan.Man.1.ConsiderDomain = own
+DrivMan.Man.1.EndCond =
+DrivMan.Man.1.Info =
+DrivMan.Man.1.LongStep.0.Cmds:
+DrivMan.Man.1.LongStep.0.Dyn =
+DrivMan.Man.1.LongStep.0.EndCond =
+DrivMan.Man.1.LongStep.0.Info =
+DrivMan.Man.1.LongStep.0.Label =
+DrivMan.Man.1.LongStep.0.TimeLimit = 0.000
+DrivMan.Man.1.MaxExec = 1
+DrivMan.Man.1.StartCond = Time >= 99999.000
+DrivMan.Man.1.Transition.EndCond = terminate
+DrivMan.Man.1.Transition.Interrupt = self
+DrivMan.Man.1.Transition.SimultanStart = end
+DrivMan.Man.1.nLatSteps = 0
+DrivMan.Man.1.nLongSteps = 1
+DrivMan.Man.Start.GearNo = 0
+DrivMan.Man.Start.LaneOffset = 0.000
+DrivMan.Man.Start.OperatorActive = 1
+DrivMan.Man.Start.OperatorState = drive
+DrivMan.Man.Start.SteerAng = 0.000
+DrivMan.Man.Start.Velocity = $(EgoSpeed=15.000)
+DrivMan.OW.Active = 0
+DrivMan.OW.Quantities =
+DrivMan.SpeedUnit = ms
+DrivMan.VhclOperator.Kind = IPGOperator 1
+DrivMan.nMan = 2
+Traffic.0.AutoDriver.FName = Car_HDM_Normal
+Traffic.0.DetectMask = 1 1
+Traffic.0.FreeMotion = 0
+Traffic.0.Lighting = 0
+Traffic.0.Man.Start.StartCond =
+Traffic.0.Man.Start.Velocity = $(TVSpeed=10.000)
+Traffic.0.Man.TreatAtEnd = FreezeVel
+Traffic.0.Name = T00
+Traffic.0.Routing.ObjId =
+Traffic.0.Routing.Type = Straight
+Traffic.0.StartPos = $(TV_initPos=60) $(TV_lanePos=0)
+Traffic.0.StartPos.Orientation = 0.0 0.0 0.0
+Traffic.0.StartPos.Orientation.Type = Relative
+Traffic.0.StartPos.RefPnt = RearAxle
+Traffic.0.StartPos.Reference = Ego
+Traffic.0.StartPos.Reference.RefPnt = Fr1
+Traffic.0.StartPos.Type = RelativeLink
+Traffic.0.StartPos.z_off = 0
+Traffic.0.Template.FName = acc_csc_002_TV
+Traffic.0.Template.ObjectKind = Movable
+Traffic.0.UpdRate = 1000
+Traffic.0.nCycleOffset = 0
+Traffic.0.nMan = 0
+Traffic.GenDriverBehavior.FName = Default
+Traffic.IFF.FName =
+Traffic.IFF.Time.Name =
+Traffic.N = 1
+Traffic.SpeedUnit = ms
+Vehicle = acc_csc_002_Ego
+Vehicle.Routing.ObjId =
+Vehicle.Routing.Type = Straight
+Vehicle.StartPos = 10.000 0.000
+Vehicle.StartPos.ObjId = 297
+Vehicle.StartPos.Orientation = 0.0
+Vehicle.StartPos.Orientation.Type = Relative
+Vehicle.StartPos.RefPnt = RearAxle
+Vehicle.StartPos.Type = Lane
+Env.nEvent = 0
+Env.Settings.Commands =

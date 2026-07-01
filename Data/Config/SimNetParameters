@@ -1,0 +1,42 @@
+#INFOFILE1.1 (UTF-8) - Do not remove this line!
+FileIdent = CarMaker Office-SimNetParameters        1
+FileCreator = SimNet 15.1 2026-07-01 12:03:56
+
+
+################################################################################
+# General Parameters
+################################################################################
+
+# Number of Ego vehicles for simulation
+nEgoVhcls = 3
+
+# Default path to executable (relative to project or installation directory)
+AppPath = ./bin/CarMaker.win64.exe
+
+# Data Storage of slave applications (1 = enabled, 0 = disabled)
+DStoreSlaves = 1
+
+# Step size and start time for synchronization and data exchange (in ms)
+Sync.dt = 10
+Sync.tStart = 1
+
+
+################################################################################
+# Additional Parameters
+################################################################################
+
+# Application specific path to executable
+SimNet00.AppPath = 
+SimNet01.AppPath = 
+SimNet02.AppPath = 
+
+# Host names or IP addresses of applications
+SimNet00.Address = 
+SimNet01.Address = 
+SimNet02.Address = 
+
+# Destination ports of applications
+SimNet00.Port = 
+SimNet01.Port = 
+SimNet02.Port = 
+

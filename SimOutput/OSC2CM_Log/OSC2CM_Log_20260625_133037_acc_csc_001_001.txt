@@ -1,0 +1,10 @@
+﻿Date;Time;Severity;Message
+2026/06/25;13:30:37.730;INFO;[Config    ] Configuring the converter.;
+2026/06/25;13:30:37.731;INFO;[Config    ] Configuration finished successfully..;
+2026/06/25;13:30:37.731;INFO;================================================================================;
+2026/06/25;13:30:37.731;INFO;[Validation] Validating acc_csc_001_001.xosc.;
+2026/06/25;13:30:37.732;INFO;--------------------------------------------------------------------------------;
+2026/06/25;13:30:37.735;ERROR;[Validation][API    ] [ERROR] Required attribute 'roadId' is missing  (46, 16);
+2026/06/25;13:30:37.743;ERROR;[Validation][API    ] [ERROR] Unknown attribute 'roadID' (46, 30);
+2026/06/25;13:30:37.743;ERROR;[Validation] Validation failed with 2 errors and 0 warnings.;
+2026/06/25;13:30:37.743;FATAL;[Validation] Failed to validate acc_csc_001_001.xosc.;

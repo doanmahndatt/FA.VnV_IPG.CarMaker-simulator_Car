@@ -1,0 +1,9 @@
+﻿Date;Time;Severity;Message
+2026/06/25;15:45:56.605;INFO;[Config    ] Configuring the converter.;
+2026/06/25;15:45:56.606;INFO;[Config    ] Configuration finished successfully..;
+2026/06/25;15:45:56.606;INFO;================================================================================;
+2026/06/25;15:45:56.606;INFO;[Validation] Validating acc_csc_004_001.xosc.;
+2026/06/25;15:45:56.606;INFO;--------------------------------------------------------------------------------;
+2026/06/25;15:45:56.611;ERROR;[Validation][API    ] [ERROR] Syntax error in expression (54, 48);
+2026/06/25;15:45:56.611;ERROR;[Validation] Validation failed with 1 errors and 0 warnings.;
+2026/06/25;15:45:56.612;FATAL;[Validation] Failed to validate acc_csc_004_001.xosc.;

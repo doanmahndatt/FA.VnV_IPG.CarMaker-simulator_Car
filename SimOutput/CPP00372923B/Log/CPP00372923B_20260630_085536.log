@@ -1,0 +1,464 @@
+APPLICATION	CarMaker 15.1 - Car_Generic #3 (win64-15.1)
+COMPILED	jetbrains@16d9601a3450 2026-05-05 10:47:07
+ 
+		I/O Configuration: default
+FIRST_INIT	(internal default used)	2026-06-30 08:55:36
+TIME	0.000
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+SIM_END			0s	0m
+IDLE	08:55:37
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.nObj: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.nObj'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj0.ObjID: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.0.ObjID'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj0.Type: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.0.Type'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj0.Confidence: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.0.Confidence'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj0.Facing: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.0.Facing'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj0.MBR.BL_X: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.0.MBR.BL_X'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj0.MBR.BL_Y: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.0.MBR.BL_Y'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj0.MBR.BL_Z: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.0.MBR.BL_Z'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj0.MBR.TR_X: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.0.MBR.TR_X'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj0.MBR.TR_Y: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.0.MBR.TR_Y'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj0.MBR.TR_Z: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.0.MBR.TR_Z'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj1.ObjID: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.1.ObjID'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj1.Type: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.1.Type'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj1.Confidence: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.1.Confidence'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj1.Facing: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.1.Facing'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj1.MBR.BL_X: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.1.MBR.BL_X'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj1.MBR.BL_Y: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.1.MBR.BL_Y'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj1.MBR.BL_Z: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.1.MBR.BL_Z'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj1.MBR.TR_X: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.1.MBR.TR_X'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj1.MBR.TR_Y: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.1.MBR.TR_Y'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj1.MBR.TR_Z: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.1.MBR.TR_Z'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj2.ObjID: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.2.ObjID'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj2.Type: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.2.Type'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj2.Confidence: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.2.Confidence'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj2.Facing: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.2.Facing'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj2.MBR.BL_X: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.2.MBR.BL_X'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj2.MBR.BL_Y: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.2.MBR.BL_Y'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj2.MBR.BL_Z: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.2.MBR.BL_Z'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj2.MBR.TR_X: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.2.MBR.TR_X'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj2.MBR.TR_Y: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.2.MBR.TR_Y'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj2.MBR.TR_Z: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.2.MBR.TR_Z'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj3.ObjID: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.3.ObjID'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj3.Type: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.3.Type'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj3.Confidence: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.3.Confidence'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj3.Facing: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.3.Facing'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj3.MBR.BL_X: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.3.MBR.BL_X'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj3.MBR.BL_Y: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.3.MBR.BL_Y'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj3.MBR.BL_Z: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.3.MBR.BL_Z'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj3.MBR.TR_X: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.3.MBR.TR_X'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj3.MBR.TR_Y: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.3.MBR.TR_Y'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj3.MBR.TR_Z: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.3.MBR.TR_Z'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj4.ObjID: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.4.ObjID'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj4.Type: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.4.Type'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj4.Confidence: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.4.Confidence'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj4.Facing: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.4.Facing'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj4.MBR.BL_X: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.4.MBR.BL_X'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj4.MBR.BL_Y: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.4.MBR.BL_Y'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj4.MBR.BL_Z: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.4.MBR.BL_Z'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj4.MBR.TR_X: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.4.MBR.TR_X'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj4.MBR.TR_Y: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.4.MBR.TR_Y'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj4.MBR.TR_Z: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.4.MBR.TR_Z'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj5.ObjID: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.5.ObjID'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj5.Type: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.5.Type'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj5.Confidence: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.5.Confidence'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj5.Facing: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.5.Facing'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj5.MBR.BL_X: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.5.MBR.BL_X'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj5.MBR.BL_Y: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.5.MBR.BL_Y'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj5.MBR.BL_Z: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.5.MBR.BL_Z'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj5.MBR.TR_X: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.5.MBR.TR_X'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj5.MBR.TR_Y: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.5.MBR.TR_Y'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj5.MBR.TR_Z: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.5.MBR.TR_Z'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj0.MeasStat: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj0.MeasStat'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj0.ObjID: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj0.ObjId'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj0.DistX: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj0.DistX'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj0.DistY: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj0.DistY'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj0.VrelX: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj0.VrelX'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj0.ProbExist: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj0.ProbExist'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj0.DynProp: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj0.DynProp'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj1.MeasStat: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj1.MeasStat'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj1.ObjID: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj1.ObjId'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj1.DistX: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj1.DistX'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj1.DistY: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj1.DistY'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj1.VrelX: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj1.VrelX'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj1.ProbExist: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj1.ProbExist'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj1.DynProp: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj1.DynProp'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj2.MeasStat: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj2.MeasStat'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj2.ObjID: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj2.ObjId'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj2.DistX: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj2.DistX'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj2.DistY: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj2.DistY'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj2.VrelX: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj2.VrelX'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj2.ProbExist: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj2.ProbExist'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj2.DynProp: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj2.DynProp'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj3.MeasStat: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj3.MeasStat'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj3.ObjID: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj3.ObjId'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj3.DistX: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj3.DistX'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj3.DistY: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj3.DistY'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj3.VrelX: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj3.VrelX'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj3.ProbExist: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj3.ProbExist'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj3.DynProp: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj3.DynProp'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj4.MeasStat: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj4.MeasStat'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj4.ObjID: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj4.ObjId'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj4.DistX: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj4.DistX'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj4.DistY: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj4.DistY'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj4.VrelX: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj4.VrelX'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj4.ProbExist: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj4.ProbExist'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj4.DynProp: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj4.DynProp'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj5.MeasStat: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj5.MeasStat'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj5.ObjID: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj5.ObjId'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj5.DistX: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj5.DistX'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj5.DistY: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj5.DistY'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj5.VrelX: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj5.VrelX'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj5.ProbExist: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj5.ProbExist'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj5.DynProp: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj5.DynProp'
+ERROR		FMU 'CM_ACCController_V17', DDict.AccelCtrl.ACC.DesiredAx: No such destination quantity
+ERROR		FMU 'CM_ACCController_V17', DDict.AccelCtrl.ACC.DesiredDist: No such destination quantity
+ERROR		FMU 'CM_ACCController_V17', DDict.AccelCtrl.ACC.DesiredSpd: No such destination quantity
+ERROR		FMU 'CM_ACCController_V17', DDict.AccelCtrl.ACC.DesiredTGap: No such destination quantity
+ERROR		FMU 'CM_ACCController_V17', DDict.AccelCtrl.ACC.IsActive: No such destination quantity
+ERROR		FMU 'CM_ACCController_V17', DDict.AccelCtrl.ACC.Time2Collision: No such destination quantity
+ERROR		FMU 'CM_ACCController_V17', DDict.AccelCtrl.DesiredAx: No such destination quantity
+TIME	5.084
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_001	2026-06-30 08:56:28
+TIME	5.084
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260630-085628.log'
+TIME	0.004
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782784588
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_001
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_001	50.002s	742.669m
+TIME	108.636
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_001	2026-06-30 09:06:17
+TIME	108.636
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260630-090617.log'
+TIME	0.005
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782785177
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_001
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_001	50.002s	749.549m
+TIME	52.446
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_001	2026-06-30 09:06:44
+TIME	52.446
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260630-090644.log'
+TIME	0.002
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782785204
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_001
+
+TIME	28.311
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_001	28.308s	424.15m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_001	2026-06-30 09:07:21
+TIME	29.013
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260630-090721.log'
+TIME	0.003
+		Environment Generic: model disabled for entire Test Run (works only on route)
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782785241
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_001
+
+TIME	50.004
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_001	50.002s	759.549m
+TIME	93.553
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_001	2026-06-30 09:15:28
+TIME	93.553
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260630-091528.log'
+TIME	0.003
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782785728
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_001
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_001	50.002s	742.669m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_001	2026-06-30 09:15:56
+TIME	50.281
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260630-091556.log'
+TIME	0.003
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782785756
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_001
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_001	50.002s	759.305m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_001	2026-06-30 09:16:01
+TIME	50.271
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260630-091601.log'
+TIME	0.003
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782785761
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_001
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_001	50.002s	963.766m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_001	2026-06-30 09:16:07
+TIME	50.273
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260630-091607.log'
+TIME	0.003
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782785767
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_001
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_001	50.002s	1201.74m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_001	2026-06-30 09:16:13
+TIME	50.306
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260630-091613.log'
+TIME	0.003
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782785773
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_001
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_001	50.002s	1442.67m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_002	2026-06-30 09:16:20
+TIME	50.356
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260630-091620.log'
+TIME	0.002
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782785780
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_002
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_002	50.002s	335.401m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_002	2026-06-30 09:16:26
+TIME	50.295
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260630-091626.log'
+TIME	0.003
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782785786
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_002
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_002	50.002s	423.914m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_002	2026-06-30 09:16:32
+TIME	50.279
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260630-091632.log'
+TIME	0.002
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782785792
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_002
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_002	50.002s	709.404m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_002	2026-06-30 09:16:38
+TIME	50.283
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260630-091638.log'
+TIME	0.003
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782785798
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_002
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_002	50.002s	882.956m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_002	2026-06-30 09:16:44
+TIME	50.295
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260630-091644.log'
+TIME	0.003
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782785804
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_002
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_002	50.002s	1079.76m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_003	2026-06-30 09:16:50
+TIME	50.353
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260630-091650.log'
+TIME	0.003
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782785810
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_003
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_003	50.002s	310.745m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_003	2026-06-30 09:16:57
+TIME	50.308
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260630-091657.log'
+TIME	0.003
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782785817
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_003
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_003	50.002s	753.049m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_003	2026-06-30 09:17:02
+TIME	50.294
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260630-091702.log'
+TIME	0.003
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782785822
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_003
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_003	50.002s	999.773m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_003	2026-06-30 09:17:08
+TIME	50.283
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260630-091708.log'
+TIME	0.003
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782785828
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_003
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_003	50.002s	1247.07m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_003	2026-06-30 09:17:14
+TIME	50.288
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260630-091714.log'
+TIME	0.003
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782785834
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_003
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_003	50.002s	1486.44m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_004	2026-06-30 09:17:21
+TIME	50.341
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260630-091721.log'
+TIME	0.003
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782785841
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_004
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_004	50.002s	310.896m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_004	2026-06-30 09:17:27
+TIME	50.305
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260630-091727.log'
+TIME	0.003
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782785847
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_004
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_004	50.002s	753.736m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_004	2026-06-30 09:17:33
+TIME	50.273
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260630-091733.log'
+TIME	0.003
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782785853
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_004
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_004	50.002s	999.773m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_004	2026-06-30 09:17:39
+TIME	50.279
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260630-091739.log'
+TIME	0.003
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782785859
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_004
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_004	50.002s	1247.07m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_004	2026-06-30 09:17:44
+TIME	50.279
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260630-091744.log'
+TIME	0.002
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782785864
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_004
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_004	50.002s	1486.44m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_005	2026-06-30 09:17:51
+TIME	50.363
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260630-091751.log'
+TIME	0.003
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782785871
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_005
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_005	50.002s	404.458m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_005	2026-06-30 09:17:58
+TIME	50.308
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260630-091758.log'
+TIME	0.003
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782785878
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_005
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_005	50.002s	474.356m
+TIME	414.336
+		Connection to GUI lost, initiate shutdown
+SHUTDOWN	Automatic CarMaker shutdown initiated
+

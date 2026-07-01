@@ -1,0 +1,17 @@
+﻿Date;Time;Severity;Message
+2026/06/25;13:49:41.366;INFO;[Config    ] Configuring the converter.;
+2026/06/25;13:49:41.366;INFO;[Config    ] Configuration finished successfully..;
+2026/06/25;13:49:41.366;INFO;================================================================================;
+2026/06/25;13:49:41.366;INFO;[Validation] Validating acc_csc_003_001.xosc.;
+2026/06/25;13:49:41.367;INFO;--------------------------------------------------------------------------------;
+2026/06/25;13:49:41.376;INFO;[Validation] Validation succeeded with 0 errors and 0 warnings.;
+2026/06/25;13:49:41.376;INFO;--------------------------------------------------------------------------------;
+2026/06/25;13:49:41.411;INFO;[Validation][Ego    ] Validation finished with 0 errors and 0 warnings.;
+2026/06/25;13:49:41.411;INFO;[Validation][Traffic] Validation finished with 0 errors and 0 warnings.;
+2026/06/25;13:49:41.411;INFO;[Validation] Validation finished. Duration: 44ms.;
+2026/06/25;13:49:41.411;INFO;================================================================================;
+2026/06/25;13:49:41.411;INFO;[Loading   ] Loading acc_csc_003_001.xosc;
+2026/06/25;13:49:41.419;INFO;[Loading   ] Loading finished. Duration: 7ms;
+2026/06/25;13:49:41.419;INFO;================================================================================;
+2026/06/25;13:49:41.419;INFO;[Conversion] Converting acc_csc_003_001.xosc;
+2026/06/25;13:49:41.428;FATAL;[Conversion]        [Road         ] Error loading OpenDRIVE file. Could not find OpenDRIVE file. The path is: C:\CM_Projects\ADAS_Demo1\Data\OpenSCENARIO\Scenarios\longitudinal_feature\ACC\acc_csc_003\MAP_sample\ALKS_Road_Different_Curvatures.xodr;

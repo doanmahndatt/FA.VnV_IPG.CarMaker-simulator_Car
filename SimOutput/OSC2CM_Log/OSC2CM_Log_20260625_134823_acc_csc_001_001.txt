@@ -1,0 +1,14 @@
+﻿Date;Time;Severity;Message
+2026/06/25;13:48:23.435;INFO;[Config    ] Configuring the converter.;
+2026/06/25;13:48:23.435;INFO;[Config    ] Configuration finished successfully..;
+2026/06/25;13:48:23.435;INFO;================================================================================;
+2026/06/25;13:48:23.435;INFO;[Validation] Validating acc_csc_001_001.xosc.;
+2026/06/25;13:48:23.436;INFO;--------------------------------------------------------------------------------;
+2026/06/25;13:48:23.442;ERROR;[Validation][API    ] [ERROR] Cannot resolve catalog directory './Catalogs/Controllers' () (21, 17);
+2026/06/25;13:48:23.449;ERROR;[Validation][API    ] [ERROR] Cannot resolve catalog directory './Catalogs/Trajectory' () (18, 17);
+2026/06/25;13:48:23.449;ERROR;[Validation][API    ] [ERROR] Cannot resolve catalog directory './OpenSCENARIO/Catalogs/Vehicles' () (12, 17);
+2026/06/25;13:48:23.449;ERROR;[Validation][API    ] [ERROR] Cannot resolve entry 'DefaultDriver' in catalog 'ControllerCatalog' (34, 8);
+2026/06/25;13:48:23.449;ERROR;[Validation][API    ] [ERROR] Cannot resolve entry 'bus' in catalog 'VehicleCatalog' (32, 6);
+2026/06/25;13:48:23.449;ERROR;[Validation][API    ] [ERROR] Cannot resolve entry 'car_ego' in catalog 'VehicleCatalog' (29, 6);
+2026/06/25;13:48:23.449;ERROR;[Validation] Validation failed with 6 errors and 0 warnings.;
+2026/06/25;13:48:23.450;FATAL;[Validation] Failed to validate acc_csc_001_001.xosc.;

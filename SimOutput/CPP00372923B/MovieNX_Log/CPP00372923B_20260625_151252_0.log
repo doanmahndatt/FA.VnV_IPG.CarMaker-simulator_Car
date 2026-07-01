@@ -1,0 +1,48 @@
+[2026-06-25 15:12:52.185] [Application] [warning] Invalid configuration file for Creator 'MovieNX'. Perhaps the file was not yet created? Path: C:/CM_Projects/ADAS_Demo1/MovieNX/data/Camera/Camera.cfg
+[2026-06-25 15:12:58.364] [Application] [info] APO: Successfully connected to: CarMaker 15.1 - Car_Generic @ CPP00372923B(127.0.0.1):29232
+[2026-06-25 15:12:58.375] [Application] [info] Using RenderSettingsProfile: RenderSettings_high.cfg -> template_high.render
+[2026-06-25 15:12:58.449] [Application] [info] Loading Installed scripts...
+[2026-06-25 15:12:58.450] [Application] [info] Loading User scripts...
+[2026-06-25 15:12:58.466] [Application] [info] Loading project scripts...
+[2026-06-25 15:12:58.483] [Application] [info] Loaded Path Mapping with 0 mapped directories. Set CarMaker home dir to 'C:/IPG/carmaker/win64-15.1'
+[2026-06-25 15:12:58.516] [Application] [info] Loading Test Run from path C:/CM_Projects/ADAS_Demo1/Data/TestRun/.tmp_CPP00372923B_TungNV68.1
+[2026-06-25 15:12:58.924] [Application] [warning] Invalid configuration file for Creator 'MovieNX'. Perhaps the file was not yet created? Path: C:/CM_Projects/ADAS_Demo1/MovieNX/data/Camera/Camera.cfg
+[2026-06-25 15:13:05.043] [Application] [info] Loaded Path Mapping with 0 mapped directories. Set CarMaker home dir to 'C:/IPG/carmaker/win64-15.1'
+[2026-06-25 15:13:05.759] [Application] [info] Loading Test Run from path C:/CM_Projects/ADAS_Demo1/Data/TestRun/.tmp_CPP00372923B_TungNV68.0
+[2026-06-25 15:28:47.515] [Application] [info] Loaded Path Mapping with 0 mapped directories. Set CarMaker home dir to 'C:/IPG/carmaker/win64-15.1'
+[2026-06-25 15:28:48.234] [Application] [info] Loading Test Run from path C:/CM_Projects/ADAS_Demo1/Data/TestRun/acc_csc_004_001
+[2026-06-25 15:29:44.471] [Application] [info] Loaded Path Mapping with 0 mapped directories. Set CarMaker home dir to 'C:/IPG/carmaker/win64-15.1'
+[2026-06-25 15:29:45.195] [Application] [info] Loading Test Run from path C:/CM_Projects/ADAS_Demo1/Data/TestRun/acc_csc_004_001
+[2026-06-25 15:31:45.616] [Application] [info] APO Client: Disconnecting...
+[2026-06-25 15:31:45.645] [Application] [info] Loading Test Run from path C:/CM_Projects/ADAS_Demo1/Data/TestRun/.tmp_preview
+[2026-06-25 15:31:58.354] [Application] [info] APO Client: Disconnecting...
+[2026-06-25 15:31:58.384] [Application] [info] Loading Test Run from path C:/CM_Projects/ADAS_Demo1/Data/TestRun/.tmp_preview
+[2026-06-25 15:46:25.370] [Application] [info] APO Client: Disconnecting...
+[2026-06-25 15:46:25.415] [Application] [info] Loading Test Run from path C:/CM_Projects/ADAS_Demo1/Data/TestRun/.tmp_preview
+[2026-06-25 15:48:20.141] [Application] [info] APO Client: Disconnecting...
+[2026-06-25 15:48:20.170] [Application] [info] Loading Test Run from path C:/CM_Projects/ADAS_Demo1/Data/TestRun/.tmp_preview
+[2026-06-25 15:48:47.869] [Application] [info] APO Client: Disconnecting...
+[2026-06-25 15:48:47.980] [Application] [info] APO: Successfully connected to: CarMaker 15.1 - Car_Generic @ CPP00372923B(127.0.0.1):29232
+[2026-06-25 15:48:48.019] [Application] [info] Loaded Path Mapping with 0 mapped directories. Set CarMaker home dir to 'C:/IPG/carmaker/win64-15.1'
+[2026-06-25 15:48:48.736] [Application] [info] Loading Test Run from path C:/CM_Projects/ADAS_Demo1/Data/TestRun/acc_csc_004_001
+[2026-06-25 15:49:45.454] [Application] [info] Loaded Path Mapping with 0 mapped directories. Set CarMaker home dir to 'C:/IPG/carmaker/win64-15.1'
+[2026-06-25 15:49:46.189] [Application] [info] Loading Test Run from path C:/CM_Projects/ADAS_Demo1/Data/TestRun/acc_csc_004_001
+[2026-06-25 15:50:43.501] [Application] [info] Loaded Path Mapping with 0 mapped directories. Set CarMaker home dir to 'C:/IPG/carmaker/win64-15.1'
+[2026-06-25 15:50:44.229] [Application] [info] Loading Test Run from path C:/CM_Projects/ADAS_Demo1/Data/TestRun/acc_csc_007_001
+[2026-06-25 16:11:01.819] [Application] [info] APO Client: Disconnecting...
+[2026-06-25 16:11:01.851] [Application] [info] Loading Test Run from path C:/CM_Projects/ADAS_Demo1/Data/TestRun/.tmp_preview
+[2026-06-25 16:12:17.393] [Application] [info] APO Client: Disconnecting...
+[2026-06-25 16:12:17.422] [Application] [info] Loading Test Run from path C:/CM_Projects/ADAS_Demo1/Data/TestRun/.tmp_preview
+[2026-06-25 16:13:24.200] [Application] [info] APO Client: Disconnecting...
+[2026-06-25 16:13:24.310] [Application] [info] APO: Successfully connected to: CarMaker 15.1 - Car_Generic @ CPP00372923B(127.0.0.1):29232
+[2026-06-25 16:13:24.347] [Application] [info] Loaded Path Mapping with 0 mapped directories. Set CarMaker home dir to 'C:/IPG/carmaker/win64-15.1'
+[2026-06-25 16:13:25.124] [Application] [info] Loading Test Run from path C:/CM_Projects/ADAS_Demo1/Data/TestRun/.tmp_CPP00372923B_TungNV68.1
+[2026-06-25 16:13:44.136] [Application] [info] Loaded Path Mapping with 0 mapped directories. Set CarMaker home dir to 'C:/IPG/carmaker/win64-15.1'
+[2026-06-25 16:13:44.869] [Application] [info] Loading Test Run from path C:/CM_Projects/ADAS_Demo1/Data/TestRun/acc_csc_004_001
+[2026-06-25 16:14:41.679] [Application] [info] Loaded Path Mapping with 0 mapped directories. Set CarMaker home dir to 'C:/IPG/carmaker/win64-15.1'
+[2026-06-25 16:14:42.412] [Application] [info] Loading Test Run from path C:/CM_Projects/ADAS_Demo1/Data/TestRun/acc_csc_004_001
+[2026-06-25 16:19:25.464] [Application] [info] Loaded Path Mapping with 0 mapped directories. Set CarMaker home dir to 'C:/IPG/carmaker/win64-15.1'
+[2026-06-25 16:19:26.204] [Application] [info] Loading Test Run from path C:/CM_Projects/ADAS_Demo1/Data/TestRun/acc_csc_004_001
+[2026-06-25 16:20:23.228] [Application] [info] Loaded Path Mapping with 0 mapped directories. Set CarMaker home dir to 'C:/IPG/carmaker/win64-15.1'
+[2026-06-25 16:20:23.973] [Application] [info] Loading Test Run from path C:/CM_Projects/ADAS_Demo1/Data/TestRun/acc_csc_004_001
+[2026-06-25 16:21:14.615] [Application] [info] APO Client: Disconnecting...

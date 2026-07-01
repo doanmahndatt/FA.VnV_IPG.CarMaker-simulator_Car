@@ -1,0 +1,539 @@
+<?xml version='1.0' encoding='utf-8'?>
+<fmiModelDescription fmiVersion="2.0" modelName="CM_ACCController_V20_1_FixedDebounce" guid="{CM-ACC-V20-1-FIXEDDEBOUNCE-2026}" generationTool="ChatGPT" variableNamingConvention="structured">
+  <CoSimulation modelIdentifier="CM_ACCController_V20_1" needsExecutionTool="false" canHandleVariableCommunicationStepSize="true" />
+  <ModelVariables>
+    <ScalarVariable name="Ego.v" valueReference="0" causality="input" variability="continuous" description="Ego vehicle longitudinal speed">
+      <Real start="0" unit="m/s" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.SetSpeed_kph" valueReference="1" causality="input" variability="continuous" description="ACC set speed from xOSC/Driver.ReCon.Speed; clamped 20..150 km/h">
+      <Real start="90" unit="km/h" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.Enable" valueReference="2" causality="input" variability="continuous" description="Enable ACC controller">
+      <Real start="1" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.nObj" valueReference="10" causality="input" variability="continuous" description="Number of camera objects to scan, up to 6">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.TimeGap" valueReference="60" causality="input" variability="continuous" description="Fallback/direct time gap">
+      <Real start="2.3" unit="s" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.MinDist" valueReference="61" causality="input" variability="continuous" description="Minimum clearance cmin">
+      <Real start="10.0" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.LaneGateY" valueReference="62" causality="input" variability="continuous" description="Same-lane lateral gate applied to every camera/radar object">
+      <Real start="0.85" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.MaxRange" valueReference="63" causality="input" variability="continuous" description="Sensor validity range">
+      <Real start="220" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.MaxAx" valueReference="64" causality="input" variability="continuous" description="Max acceleration command; V18 recommended for set-speed resume 2.8 m/s2">
+      <Real start="2.8" unit="m/s2" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.MinAx" valueReference="65" causality="input" variability="continuous" description="Normal ACC deceleration limit">
+      <Real start="-3.0" unit="m/s2" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.EmergencyAx" valueReference="66" causality="input" variability="continuous" description="Emergency deceleration command">
+      <Real start="-6.0" unit="m/s2" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.KpSpeed" valueReference="67" causality="input" variability="continuous" description="Speed controller gain; V18 recommended 0.80 for 2-3s cut-out resume">
+      <Real start="0.80" unit="1/s" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.KpGap" valueReference="68" causality="input" variability="continuous" description="Gap acceleration gain">
+      <Real start="0.06" unit="1/s2" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.KdRelSpeed" valueReference="69" causality="input" variability="continuous" description="Relative speed damping">
+      <Real start="1.60" unit="1/s" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.JerkLimit" valueReference="70" causality="input" variability="continuous" description="Comfort jerk limit">
+      <Real start="4.0" unit="m/s3" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.TTCWarning" valueReference="71" causality="input" variability="continuous" description="Warning TTC threshold">
+      <Real start="11.0" unit="s" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.TTCEmergency" valueReference="72" causality="input" variability="continuous" description="Emergency TTC threshold">
+      <Real start="3.5" unit="s" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.KgapSpeed" valueReference="73" causality="input" variability="continuous" description="Gap-to-follow-speed gain">
+      <Real start="0.010" unit="1/s" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.KpFollowSpeed" valueReference="74" causality="input" variability="continuous" description="Follow speed controller gain">
+      <Real start="0.24" unit="1/s" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.FollowReleaseGap" valueReference="75" causality="input" variability="continuous" description="Release margin before positive accel in follow">
+      <Real start="8.0" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.StopGuardDist" valueReference="76" causality="input" variability="continuous" description="Minimum stop guard distance">
+      <Real start="18.0" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.BrakeHoldAx" valueReference="77" causality="input" variability="continuous" description="Low-speed/brake-hold deceleration">
+      <Real start="-1.0" unit="m/s2" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.WarningAx" valueReference="78" causality="input" variability="continuous" description="Warning deceleration cap">
+      <Real start="-1.6" unit="m/s2" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.AllowAccelInFollow" valueReference="79" causality="input" variability="continuous" description="0 blocks acceleration above LeadSpeed in active follow; V18 default no-overtake follow">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.BrakeHoldTime" valueReference="80" causality="input" variability="continuous" description="Target persistence time after transient lead dropout before confirmed lost-target cut-out; V19 raised from 0.8s to 1.5s per NHTSA Event412/415 curve occlusion evidence">
+      <Real start="1.5" unit="s" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.DistJumpThreshold" valueReference="81" causality="input" variability="continuous" description="Invalid distance jump threshold">
+      <Real start="50" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.VrelEstimateEnable" valueReference="82" causality="input" variability="continuous" description="Estimate vrel from range-rate if sensor vrel unavailable">
+      <Real start="1" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.RadarOnlyEnable" valueReference="83" causality="input" variability="continuous" description="Allow radar-only target when FusionRequireBoth=0">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.TimeGapLevel" valueReference="84" causality="input" variability="continuous" description="Spec time-gap level: 1=1.0s, 2=1.5s, 3=1.9s, 4=2.3s">
+      <Real start="4" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.FollowMaxDist" valueReference="85" causality="input" variability="continuous" description="Max distance for follow target per spec">
+      <Real start="120" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.IgnoreStationaryAbove_kph" valueReference="86" causality="input" variability="continuous" description="Spec stationary-target limitation threshold">
+      <Real start="60" unit="km/h" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.DynamicStopGuardTime" valueReference="87" causality="input" variability="continuous" description="Closing-speed preview time used to start smooth decel earlier">
+      <Real start="2.7" unit="s" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.LowSpeedHoldAx" valueReference="88" causality="input" variability="continuous" description="Low-speed hold deceleration">
+      <Real start="-1.0" unit="m/s2" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.ForwardAxis" valueReference="89" causality="input" variability="continuous" description="0=X, 1=Y, 2=Z used for camera longitudinal coordinate">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.LateralAxis" valueReference="90" causality="input" variability="continuous" description="0=X, 1=Y, 2=Z used for camera lateral coordinate">
+      <Real start="1" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.MinConfidence" valueReference="91" causality="input" variability="continuous" description="Minimum camera confidence">
+      <Real start="0.0" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.RequireFacing" valueReference="92" causality="input" variability="continuous" description="Require facing flag">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.AllowUnknownType" valueReference="93" causality="input" variability="continuous" description="Allow unknown camera type">
+      <Real start="1" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.FusionDistTolerance" valueReference="94" causality="input" variability="continuous" description="Max camera-radar longitudinal distance mismatch">
+      <Real start="6.5" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.FusionLateralTolerance" valueReference="95" causality="input" variability="continuous" description="Max camera-radar lateral mismatch">
+      <Real start="0.45" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.CameraOnlyEnable" valueReference="96" causality="input" variability="continuous" description="Allow camera-only target when FusionRequireBoth=0">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.ProbExistMin" valueReference="97" causality="input" variability="continuous" description="Minimum radar existence probability">
+      <Real start="2.0" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.FusionRequireBoth" valueReference="98" causality="input" variability="continuous" description="Require camera-radar fused lead for new lead acquisition; current accepted lead can be held through short transient dropout">
+      <Real start="1" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.MeasStatValidValue" valueReference="99" causality="input" variability="continuous" description="Radar MeasStat value interpreted as valid/measured">
+      <Real start="3" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.BrakeOnlyEnable" valueReference="107" causality="input" variability="continuous" description="Enable Brake Only behavior">
+      <Real start="1" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.SpeedTol_kph_Straight" valueReference="108" causality="input" variability="continuous" description="Straight speed tolerance reference">
+      <Real start="1.0" unit="km/h" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.RequireCameraLane" valueReference="109" causality="input" variability="continuous" description="Keep 0; CM camera object list has no lane signal">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.EgoLaneValue" valueReference="110" causality="input" variability="continuous" description="Reserved lane code">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.CameraLaneTolerance" valueReference="111" causality="input" variability="continuous" description="Reserved; CM camera object list has no lane by default">
+      <Real start="0.1" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.LeadConfirmTime" valueReference="112" causality="input" variability="continuous" description="Fast cut-in acceptance; default 0.0 s to avoid late lead detection">
+      <Real start="0.5" unit="s" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.CutOutReleaseDelay" valueReference="113" causality="input" variability="continuous" description="Delay before release after no same-lane fused lead; default 0 immediate">
+      <Real start="0.0" unit="s" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.LeadSwitchTime" valueReference="114" causality="input" variability="continuous" description="Stable time before switching between lead candidates">
+      <Real start="0.3" unit="s" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.LeadScoreLatWeight" valueReference="115" causality="input" variability="continuous" description="Candidate scoring lateral weight">
+      <Real start="2.0" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.LeadScoreDxWeight" valueReference="116" causality="input" variability="continuous" description="Candidate scoring longitudinal weight">
+      <Real start="1.0" />
+    </ScalarVariable>
+    <ScalarVariable name="ACC.LeadScoreMatchWeight" valueReference="117" causality="input" variability="continuous" description="Candidate scoring camera-radar mismatch weight">
+      <Real start="4.0" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj0.ObjID" valueReference="1000" causality="input" variability="continuous" description="Camera object ID">
+      <Real start="-1" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj0.Type" valueReference="1001" causality="input" variability="continuous" description="Camera object type/class">
+      <Real start="-1" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj0.Confidence" valueReference="1002" causality="input" variability="continuous" description="Camera object confidence">
+      <Real start="1" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj0.Facing" valueReference="1003" causality="input" variability="continuous" description="Camera object facing flag">
+      <Real start="1" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj0.MBR.BL_X" valueReference="1004" causality="input" variability="continuous" description="Camera object MBR bottom-left X">
+      <Real start="999" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj0.MBR.BL_Y" valueReference="1005" causality="input" variability="continuous" description="Camera object MBR bottom-left Y">
+      <Real start="0" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj0.MBR.BL_Z" valueReference="1006" causality="input" variability="continuous" description="Camera object MBR bottom-left Z">
+      <Real start="999" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj0.MBR.TR_X" valueReference="1007" causality="input" variability="continuous" description="Camera object MBR top-right X">
+      <Real start="999" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj0.MBR.TR_Y" valueReference="1008" causality="input" variability="continuous" description="Camera object MBR top-right Y">
+      <Real start="0" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj0.MBR.TR_Z" valueReference="1009" causality="input" variability="continuous" description="Camera object MBR top-right Z">
+      <Real start="999" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj1.ObjID" valueReference="1010" causality="input" variability="continuous" description="Camera object ID">
+      <Real start="-1" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj1.Type" valueReference="1011" causality="input" variability="continuous" description="Camera object type/class">
+      <Real start="-1" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj1.Confidence" valueReference="1012" causality="input" variability="continuous" description="Camera object confidence">
+      <Real start="1" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj1.Facing" valueReference="1013" causality="input" variability="continuous" description="Camera object facing flag">
+      <Real start="1" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj1.MBR.BL_X" valueReference="1014" causality="input" variability="continuous" description="Camera object MBR bottom-left X">
+      <Real start="999" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj1.MBR.BL_Y" valueReference="1015" causality="input" variability="continuous" description="Camera object MBR bottom-left Y">
+      <Real start="0" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj1.MBR.BL_Z" valueReference="1016" causality="input" variability="continuous" description="Camera object MBR bottom-left Z">
+      <Real start="999" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj1.MBR.TR_X" valueReference="1017" causality="input" variability="continuous" description="Camera object MBR top-right X">
+      <Real start="999" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj1.MBR.TR_Y" valueReference="1018" causality="input" variability="continuous" description="Camera object MBR top-right Y">
+      <Real start="0" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj1.MBR.TR_Z" valueReference="1019" causality="input" variability="continuous" description="Camera object MBR top-right Z">
+      <Real start="999" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj2.ObjID" valueReference="1020" causality="input" variability="continuous" description="Camera object ID">
+      <Real start="-1" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj2.Type" valueReference="1021" causality="input" variability="continuous" description="Camera object type/class">
+      <Real start="-1" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj2.Confidence" valueReference="1022" causality="input" variability="continuous" description="Camera object confidence">
+      <Real start="1" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj2.Facing" valueReference="1023" causality="input" variability="continuous" description="Camera object facing flag">
+      <Real start="1" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj2.MBR.BL_X" valueReference="1024" causality="input" variability="continuous" description="Camera object MBR bottom-left X">
+      <Real start="999" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj2.MBR.BL_Y" valueReference="1025" causality="input" variability="continuous" description="Camera object MBR bottom-left Y">
+      <Real start="0" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj2.MBR.BL_Z" valueReference="1026" causality="input" variability="continuous" description="Camera object MBR bottom-left Z">
+      <Real start="999" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj2.MBR.TR_X" valueReference="1027" causality="input" variability="continuous" description="Camera object MBR top-right X">
+      <Real start="999" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj2.MBR.TR_Y" valueReference="1028" causality="input" variability="continuous" description="Camera object MBR top-right Y">
+      <Real start="0" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj2.MBR.TR_Z" valueReference="1029" causality="input" variability="continuous" description="Camera object MBR top-right Z">
+      <Real start="999" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj3.ObjID" valueReference="1030" causality="input" variability="continuous" description="Camera object ID">
+      <Real start="-1" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj3.Type" valueReference="1031" causality="input" variability="continuous" description="Camera object type/class">
+      <Real start="-1" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj3.Confidence" valueReference="1032" causality="input" variability="continuous" description="Camera object confidence">
+      <Real start="1" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj3.Facing" valueReference="1033" causality="input" variability="continuous" description="Camera object facing flag">
+      <Real start="1" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj3.MBR.BL_X" valueReference="1034" causality="input" variability="continuous" description="Camera object MBR bottom-left X">
+      <Real start="999" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj3.MBR.BL_Y" valueReference="1035" causality="input" variability="continuous" description="Camera object MBR bottom-left Y">
+      <Real start="0" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj3.MBR.BL_Z" valueReference="1036" causality="input" variability="continuous" description="Camera object MBR bottom-left Z">
+      <Real start="999" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj3.MBR.TR_X" valueReference="1037" causality="input" variability="continuous" description="Camera object MBR top-right X">
+      <Real start="999" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj3.MBR.TR_Y" valueReference="1038" causality="input" variability="continuous" description="Camera object MBR top-right Y">
+      <Real start="0" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Camera.Obj3.MBR.TR_Z" valueReference="1039" causality="input" variability="continuous" description="Camera object MBR top-right Z">
+      <Real start="999" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Radar.Obj0.MeasStat" valueReference="2000" causality="input" variability="continuous" description="Radar measurement status">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="Radar.Obj0.ObjID" valueReference="2001" causality="input" variability="continuous" description="Radar object ID">
+      <Real start="-1" />
+    </ScalarVariable>
+    <ScalarVariable name="Radar.Obj0.DistX" valueReference="2002" causality="input" variability="continuous" description="Radar longitudinal distance">
+      <Real start="999" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Radar.Obj0.DistY" valueReference="2003" causality="input" variability="continuous" description="Radar lateral distance">
+      <Real start="0" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Radar.Obj0.VrelX" valueReference="2004" causality="input" variability="continuous" description="Radar relative longitudinal speed">
+      <Real start="0" unit="m/s" />
+    </ScalarVariable>
+    <ScalarVariable name="Radar.Obj0.ProbExist" valueReference="2005" causality="input" variability="continuous" description="Radar existence probability">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="Radar.Obj0.DynProp" valueReference="2006" causality="input" variability="continuous" description="Radar dynamic property">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="Radar.Obj1.MeasStat" valueReference="2007" causality="input" variability="continuous" description="Radar measurement status">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="Radar.Obj1.ObjID" valueReference="2008" causality="input" variability="continuous" description="Radar object ID">
+      <Real start="-1" />
+    </ScalarVariable>
+    <ScalarVariable name="Radar.Obj1.DistX" valueReference="2009" causality="input" variability="continuous" description="Radar longitudinal distance">
+      <Real start="999" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Radar.Obj1.DistY" valueReference="2010" causality="input" variability="continuous" description="Radar lateral distance">
+      <Real start="0" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Radar.Obj1.VrelX" valueReference="2011" causality="input" variability="continuous" description="Radar relative longitudinal speed">
+      <Real start="0" unit="m/s" />
+    </ScalarVariable>
+    <ScalarVariable name="Radar.Obj1.ProbExist" valueReference="2012" causality="input" variability="continuous" description="Radar existence probability">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="Radar.Obj1.DynProp" valueReference="2013" causality="input" variability="continuous" description="Radar dynamic property">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="Radar.Obj2.MeasStat" valueReference="2014" causality="input" variability="continuous" description="Radar measurement status">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="Radar.Obj2.ObjID" valueReference="2015" causality="input" variability="continuous" description="Radar object ID">
+      <Real start="-1" />
+    </ScalarVariable>
+    <ScalarVariable name="Radar.Obj2.DistX" valueReference="2016" causality="input" variability="continuous" description="Radar longitudinal distance">
+      <Real start="999" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Radar.Obj2.DistY" valueReference="2017" causality="input" variability="continuous" description="Radar lateral distance">
+      <Real start="0" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Radar.Obj2.VrelX" valueReference="2018" causality="input" variability="continuous" description="Radar relative longitudinal speed">
+      <Real start="0" unit="m/s" />
+    </ScalarVariable>
+    <ScalarVariable name="Radar.Obj2.ProbExist" valueReference="2019" causality="input" variability="continuous" description="Radar existence probability">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="Radar.Obj2.DynProp" valueReference="2020" causality="input" variability="continuous" description="Radar dynamic property">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="Radar.Obj3.MeasStat" valueReference="2021" causality="input" variability="continuous" description="Radar measurement status">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="Radar.Obj3.ObjID" valueReference="2022" causality="input" variability="continuous" description="Radar object ID">
+      <Real start="-1" />
+    </ScalarVariable>
+    <ScalarVariable name="Radar.Obj3.DistX" valueReference="2023" causality="input" variability="continuous" description="Radar longitudinal distance">
+      <Real start="999" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Radar.Obj3.DistY" valueReference="2024" causality="input" variability="continuous" description="Radar lateral distance">
+      <Real start="0" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Radar.Obj3.VrelX" valueReference="2025" causality="input" variability="continuous" description="Radar relative longitudinal speed">
+      <Real start="0" unit="m/s" />
+    </ScalarVariable>
+    <ScalarVariable name="Radar.Obj3.ProbExist" valueReference="2026" causality="input" variability="continuous" description="Radar existence probability">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="Radar.Obj3.DynProp" valueReference="2027" causality="input" variability="continuous" description="Radar dynamic property">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="AccelCtrl.DesiredAx" valueReference="3000" causality="output" variability="continuous" description="Main desired longitudinal acceleration for CarMaker AccelCtrl">
+      <Real start="0" unit="m/s2" />
+    </ScalarVariable>
+    <ScalarVariable name="AccelCtrl.ACC.DesiredAx" valueReference="3001" causality="output" variability="continuous" description="ACC desired acceleration debug">
+      <Real start="0" unit="m/s2" />
+    </ScalarVariable>
+    <ScalarVariable name="AccelCtrl.ACC.DesiredDist" valueReference="3002" causality="output" variability="continuous" description="ACC desired following distance">
+      <Real start="0" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="AccelCtrl.ACC.DesiredSpd" valueReference="3003" causality="output" variability="continuous" description="ACC desired cruise/follow speed">
+      <Real start="0" unit="m/s" />
+    </ScalarVariable>
+    <ScalarVariable name="AccelCtrl.ACC.DesiredTGap" valueReference="3004" causality="output" variability="continuous" description="Effective ACC time gap">
+      <Real start="0" unit="s" />
+    </ScalarVariable>
+    <ScalarVariable name="AccelCtrl.ACC.IsActive" valueReference="3005" causality="output" variability="continuous" description="ACC active flag">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="AccelCtrl.ACC.Time2Collision" valueReference="3006" causality="output" variability="continuous" description="Time to collision">
+      <Real start="999" unit="s" />
+    </ScalarVariable>
+    <ScalarVariable name="Debug.Target.Valid" valueReference="3020" causality="output" variability="continuous" description="Selected target valid">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="Debug.Target.Source" valueReference="3021" causality="output" variability="continuous" description="0 none, 1 camera-only, 2 radar-only, 3 fused">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="Debug.Target.DistX" valueReference="3022" causality="output" variability="continuous" description="Selected target longitudinal distance">
+      <Real start="999" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Debug.Target.DistY" valueReference="3023" causality="output" variability="continuous" description="Selected target lateral distance">
+      <Real start="0" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Debug.Target.VrelX" valueReference="3024" causality="output" variability="continuous" description="Selected target relative speed">
+      <Real start="0" unit="m/s" />
+    </ScalarVariable>
+    <ScalarVariable name="Debug.SafeDistance" valueReference="3025" causality="output" variability="continuous" description="Time-gap safe distance">
+      <Real start="0" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Debug.GapError" valueReference="3026" causality="output" variability="continuous" description="Target.DistX - SafeDistance">
+      <Real start="0" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Debug.RawAx" valueReference="3027" causality="output" variability="continuous" description="Raw acceleration before jerk limit">
+      <Real start="0" unit="m/s2" />
+    </ScalarVariable>
+    <ScalarVariable name="Debug.Mode" valueReference="3028" causality="output" variability="continuous" description="0 off, 1 speed, 2 follow, 3 warning, 4 emergency">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="Debug.Reason" valueReference="3029" causality="output" variability="continuous" description="Reason code">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="Debug.LeadSpeed" valueReference="3030" causality="output" variability="continuous" description="Estimated lead speed">
+      <Real start="0" unit="m/s" />
+    </ScalarVariable>
+    <ScalarVariable name="Debug.FollowTargetSpeed" valueReference="3031" causality="output" variability="continuous" description="ACC follow target speed">
+      <Real start="0" unit="m/s" />
+    </ScalarVariable>
+    <ScalarVariable name="Debug.VrelX.Estimated" valueReference="3032" causality="output" variability="continuous" description="VrelX estimated from range rate">
+      <Real start="0" unit="m/s" />
+    </ScalarVariable>
+    <ScalarVariable name="Debug.BrakeHoldActive" valueReference="3033" causality="output" variability="continuous" description="Brake hold active">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="Debug.LastValidDistX" valueReference="3034" causality="output" variability="continuous" description="Last valid selected target distance">
+      <Real start="999" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Debug.DistXInvalid" valueReference="3035" causality="output" variability="continuous" description="Invalid distance detected">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="Debug.HazardLatched" valueReference="3036" causality="output" variability="continuous" description="Hazard latch active">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="Debug.CameraCandidateValid" valueReference="3038" causality="output" variability="continuous" description="Number of valid camera candidates">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="Debug.RadarCandidateValid" valueReference="3039" causality="output" variability="continuous" description="Number of valid radar candidates">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="Debug.EffectiveStopGuard" valueReference="3040" causality="output" variability="continuous" description="Effective dynamic stop guard">
+      <Real start="10" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Debug.Camera.DistX" valueReference="3041" causality="output" variability="continuous" description="Selected camera candidate longitudinal distance">
+      <Real start="999" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Debug.Camera.DistY" valueReference="3042" causality="output" variability="continuous" description="Selected camera candidate lateral distance">
+      <Real start="0" unit="m" />
+    </ScalarVariable>
+    <ScalarVariable name="Debug.Fusion.Active" valueReference="3043" causality="output" variability="continuous" description="1 only when selected LeadObj is fused camera+radar same-lane object">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="Debug.Fusion.CameraRadarMatch" valueReference="3044" causality="output" variability="continuous" description="Camera and radar candidates matched">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="Debug.SpecState" valueReference="3045" causality="output" variability="continuous" description="Spec-like state code">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="Debug.BrakeOnlyActive" valueReference="3046" causality="output" variability="continuous" description="Brake-only active flag">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="Debug.EffectiveTimeGap" valueReference="3047" causality="output" variability="continuous" description="Effective spec time gap">
+      <Real start="2.3" unit="s" />
+    </ScalarVariable>
+    <ScalarVariable name="Debug.LeadObj.CameraIndex" valueReference="3050" causality="output" variability="continuous" description="Camera object index selected as LeadObj">
+      <Real start="-1" />
+    </ScalarVariable>
+    <ScalarVariable name="Debug.LeadObj.RadarIndex" valueReference="3051" causality="output" variability="continuous" description="Radar object index selected as LeadObj">
+      <Real start="-1" />
+    </ScalarVariable>
+    <ScalarVariable name="Debug.LeadObj.Confidence" valueReference="3052" causality="output" variability="continuous" description="Selected lead confidence/probability proxy">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="Debug.LeadObj.CandidateCount" valueReference="3053" causality="output" variability="continuous" description="Total valid camera+radar candidates">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="Debug.CutInPending" valueReference="3054" causality="output" variability="continuous" description="Lead candidate is being confirmed before cut-in accept">
+      <Real start="0" />
+    </ScalarVariable>
+    <ScalarVariable name="Debug.CutOutRelease" valueReference="3055" causality="output" variability="continuous" description="V18 latched cut-out resume state: 1 only after confirmed lateral cut-out or sustained lost current lead; not set on transient dropout">
+      <Real start="0" />
+    </ScalarVariable>
+  </ModelVariables>
+  <ModelStructure>
+    <Outputs>
+      <Unknown index="158" />
+      <Unknown index="159" />
+      <Unknown index="160" />
+      <Unknown index="161" />
+      <Unknown index="162" />
+      <Unknown index="163" />
+      <Unknown index="164" />
+      <Unknown index="165" />
+      <Unknown index="166" />
+      <Unknown index="167" />
+      <Unknown index="168" />
+      <Unknown index="169" />
+      <Unknown index="170" />
+      <Unknown index="171" />
+      <Unknown index="172" />
+      <Unknown index="173" />
+      <Unknown index="174" />
+      <Unknown index="175" />
+      <Unknown index="176" />
+      <Unknown index="177" />
+      <Unknown index="178" />
+      <Unknown index="179" />
+      <Unknown index="180" />
+      <Unknown index="181" />
+      <Unknown index="182" />
+      <Unknown index="183" />
+      <Unknown index="184" />
+      <Unknown index="185" />
+      <Unknown index="186" />
+      <Unknown index="187" />
+      <Unknown index="188" />
+      <Unknown index="189" />
+      <Unknown index="190" />
+      <Unknown index="191" />
+      <Unknown index="192" />
+      <Unknown index="193" />
+      <Unknown index="194" />
+      <Unknown index="195" />
+      <Unknown index="196" />
+      <Unknown index="197" />
+    </Outputs>
+  </ModelStructure>
+</fmiModelDescription>

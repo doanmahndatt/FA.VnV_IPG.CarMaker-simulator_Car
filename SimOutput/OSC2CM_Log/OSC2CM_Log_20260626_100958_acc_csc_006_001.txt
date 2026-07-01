@@ -1,0 +1,27 @@
+﻿Date;Time;Severity;Message
+2026/06/26;10:09:58.131;INFO;[Config    ] Configuring the converter.;
+2026/06/26;10:09:58.131;INFO;[Config    ] Configuration finished successfully..;
+2026/06/26;10:09:58.132;INFO;================================================================================;
+2026/06/26;10:09:58.132;INFO;[Validation] Validating acc_csc_006_001.xosc.;
+2026/06/26;10:09:58.132;INFO;--------------------------------------------------------------------------------;
+2026/06/26;10:09:58.160;INFO;[Validation] Validation succeeded with 0 errors and 0 warnings.;
+2026/06/26;10:09:58.161;INFO;--------------------------------------------------------------------------------;
+2026/06/26;10:09:58.214;INFO;[Validation][Ego    ] Validation finished with 0 errors and 0 warnings.;
+2026/06/26;10:09:58.215;INFO;[Validation][Traffic] Validation finished with 0 errors and 0 warnings.;
+2026/06/26;10:09:58.215;INFO;[Validation] Validation finished. Duration: 83ms.;
+2026/06/26;10:09:58.215;INFO;================================================================================;
+2026/06/26;10:09:58.215;INFO;[Loading   ] Loading acc_csc_006_001.xosc;
+2026/06/26;10:09:58.234;INFO;[Loading   ] Loading finished. Duration: 18ms;
+2026/06/26;10:09:58.234;INFO;================================================================================;
+2026/06/26;10:09:58.234;INFO;[Conversion] Converting acc_csc_006_001.xosc;
+2026/06/26;10:09:59.421;INFO;[Conversion][Entity       ] Entity: Ego. Vehicle Infofile "DemoCar" is found in project directory;
+2026/06/26;10:09:59.421;INFO;[Conversion][Entity       ] Entity: Pedestrian. File "acc_csc_006_Pedestrian" created in project directory;
+2026/06/26;10:09:59.421;INFO;[Conversion][Entity       ] Entity: TV1. File "acc_csc_006_TV1" created in project directory;
+2026/06/26;10:09:59.421;INFO;[Conversion][Entity       ] Entity: TV2. File "acc_csc_006_TV2" created in project directory;
+2026/06/26;10:09:59.421;INFO;[Conversion][Entity       ] Entity: car1. File "acc_csc_006_car1" created in project directory;
+2026/06/26;10:09:59.421;INFO;[Conversion][Entity       ] Entity: car2. File "acc_csc_006_car2" created in project directory;
+2026/06/26;10:09:59.421;INFO;[Conversion][Entity       ] Entity: car3. File "acc_csc_006_car3" created in project directory;
+2026/06/26;10:09:59.422;INFO;[Conversion][Entity       ] Entity: park_car1. File "acc_csc_006_park_car1" created in project directory;
+2026/06/26;10:09:59.422;INFO;[Conversion][Entity       ] Entity: park_car2. File "acc_csc_006_park_car2" created in project directory;
+2026/06/26;10:09:59.422;INFO;[Conversion][Entity       ] Entity: park_car3. File "acc_csc_006_park_car3" created in project directory;
+2026/06/26;10:09:59.422;FATAL;Unable to find CM entity name for OSC entity: Bus;

@@ -1,0 +1,13 @@
+APPLICATION	CarMaker 15.1 - Car_Generic #3 (win64-15.1)
+COMPILED	jetbrains@16d9601a3450 2026-05-05 10:47:07
+ 
+		I/O Configuration: default
+FIRST_INIT	(internal default used)	2026-06-30 10:48:15
+TIME	0.000
+ERROR		GenericPlugin: Unknown model 'CM_ACCController_V15'
+		
+ERROR		FATAL ERROR - Application stopped
+		Eliminate the error and restart the application
+		Connection to GUI lost, initiate shutdown
+SHUTDOWN	Automatic CarMaker shutdown initiated
+

@@ -1,0 +1,13 @@
+APPLICATION	CarMaker 15.1 - Car_Generic #3 (win64-15.1)
+COMPILED	jetbrains@16d9601a3450 2026-05-05 10:47:07
+ 
+		I/O Configuration: default
+SIM_START	Examples/BasicFunctions/TestAutomation/TestManager/Runs/Braking	2026-06-25 16:28:22
+TIME	0.001
+WARNING		FMU: Sending all FMU log output to file 'C:/CM_Projects/ADAS_Demo1/FMU_20260625-162822.log'
+ERROR		No entry 'Sensor.Param.0.Type', file 'C:/IPG/carmaker/win64-15.1/Data/Vehicle/Examples/Demo_Audi_R8'
+ERROR		Sensor Assembly 0: Can't read Sensor.Param.0.Type.
+WARNING		One or more named values were never referenced
+		Unreferenced named value 'Brake'
+		Unreferenced named value 'vVeh'
+SIM_ABORT	Examples/BasicFunctions/TestAutomation/TestManager/Runs/Braking	0s	0m

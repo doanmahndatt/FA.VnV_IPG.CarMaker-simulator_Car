@@ -1,0 +1,1475 @@
+APPLICATION	CarMaker 15.1 - Car_Generic #3 (win64-15.1)
+COMPILED	jetbrains@16d9601a3450 2026-05-05 10:47:07
+ 
+		I/O Configuration: default
+FIRST_INIT	(internal default used)	2026-06-29 18:06:03
+TIME	0.000
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+SIM_END			0s	0m
+IDLE	18:06:04
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.nObj: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.nObj'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj0.ObjID: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.0.ObjID'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj0.Type: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.0.Type'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj0.Confidence: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.0.Confidence'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj0.Facing: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.0.Facing'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj0.MBR.BL_X: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.0.MBR.BL_X'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj0.MBR.BL_Y: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.0.MBR.BL_Y'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj0.MBR.BL_Z: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.0.MBR.BL_Z'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj0.MBR.TR_X: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.0.MBR.TR_X'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj0.MBR.TR_Y: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.0.MBR.TR_Y'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj0.MBR.TR_Z: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.0.MBR.TR_Z'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj1.ObjID: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.1.ObjID'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj1.Type: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.1.Type'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj1.Confidence: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.1.Confidence'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj1.Facing: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.1.Facing'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj1.MBR.BL_X: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.1.MBR.BL_X'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj1.MBR.BL_Y: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.1.MBR.BL_Y'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj1.MBR.BL_Z: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.1.MBR.BL_Z'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj1.MBR.TR_X: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.1.MBR.TR_X'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj1.MBR.TR_Y: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.1.MBR.TR_Y'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj1.MBR.TR_Z: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.1.MBR.TR_Z'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj2.ObjID: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.2.ObjID'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj2.Type: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.2.Type'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj2.Confidence: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.2.Confidence'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj2.Facing: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.2.Facing'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj2.MBR.BL_X: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.2.MBR.BL_X'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj2.MBR.BL_Y: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.2.MBR.BL_Y'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj2.MBR.BL_Z: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.2.MBR.BL_Z'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj2.MBR.TR_X: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.2.MBR.TR_X'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj2.MBR.TR_Y: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.2.MBR.TR_Y'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj2.MBR.TR_Z: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.2.MBR.TR_Z'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj3.ObjID: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.3.ObjID'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj3.Type: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.3.Type'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj3.Confidence: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.3.Confidence'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj3.Facing: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.3.Facing'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj3.MBR.BL_X: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.3.MBR.BL_X'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj3.MBR.BL_Y: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.3.MBR.BL_Y'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj3.MBR.BL_Z: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.3.MBR.BL_Z'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj3.MBR.TR_X: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.3.MBR.TR_X'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj3.MBR.TR_Y: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.3.MBR.TR_Y'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj3.MBR.TR_Z: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.3.MBR.TR_Z'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj4.ObjID: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.4.ObjID'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj4.Type: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.4.Type'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj4.Confidence: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.4.Confidence'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj4.Facing: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.4.Facing'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj4.MBR.BL_X: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.4.MBR.BL_X'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj4.MBR.BL_Y: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.4.MBR.BL_Y'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj4.MBR.BL_Z: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.4.MBR.BL_Z'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj4.MBR.TR_X: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.4.MBR.TR_X'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj4.MBR.TR_Y: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.4.MBR.TR_Y'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj4.MBR.TR_Z: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.4.MBR.TR_Z'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj5.ObjID: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.5.ObjID'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj5.Type: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.5.Type'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj5.Confidence: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.5.Confidence'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj5.Facing: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.5.Facing'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj5.MBR.BL_X: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.5.MBR.BL_X'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj5.MBR.BL_Y: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.5.MBR.BL_Y'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj5.MBR.BL_Z: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.5.MBR.BL_Z'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj5.MBR.TR_X: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.5.MBR.TR_X'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj5.MBR.TR_Y: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.5.MBR.TR_Y'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Camera.Obj5.MBR.TR_Z: No such source quantity 'Sensor.Camera.Vhcl.VehSensor_FCAM.Obj.5.MBR.TR_Z'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj0.MeasStat: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj0.MeasStat'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj0.ObjID: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj0.ObjId'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj0.DistX: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj0.DistX'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj0.DistY: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj0.DistY'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj0.VrelX: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj0.VrelX'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj0.ProbExist: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj0.ProbExist'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj0.DynProp: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj0.DynProp'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj1.MeasStat: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj1.MeasStat'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj1.ObjID: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj1.ObjId'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj1.DistX: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj1.DistX'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj1.DistY: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj1.DistY'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj1.VrelX: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj1.VrelX'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj1.ProbExist: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj1.ProbExist'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj1.DynProp: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj1.DynProp'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj2.MeasStat: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj2.MeasStat'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj2.ObjID: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj2.ObjId'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj2.DistX: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj2.DistX'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj2.DistY: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj2.DistY'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj2.VrelX: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj2.VrelX'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj2.ProbExist: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj2.ProbExist'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj2.DynProp: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj2.DynProp'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj3.MeasStat: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj3.MeasStat'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj3.ObjID: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj3.ObjId'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj3.DistX: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj3.DistX'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj3.DistY: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj3.DistY'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj3.VrelX: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj3.VrelX'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj3.ProbExist: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj3.ProbExist'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj3.DynProp: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj3.DynProp'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj4.MeasStat: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj4.MeasStat'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj4.ObjID: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj4.ObjId'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj4.DistX: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj4.DistX'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj4.DistY: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj4.DistY'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj4.VrelX: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj4.VrelX'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj4.ProbExist: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj4.ProbExist'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj4.DynProp: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj4.DynProp'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj5.MeasStat: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj5.MeasStat'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj5.ObjID: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj5.ObjId'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj5.DistX: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj5.DistX'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj5.DistY: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj5.DistY'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj5.VrelX: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj5.VrelX'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj5.ProbExist: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj5.ProbExist'
+ERROR		FMU 'CM_ACCController_V17', FMUIn.Radar.Obj5.DynProp: No such source quantity 'Sensor.Radar.Vhcl.VehSensor_MRR.Obj5.DynProp'
+ERROR		FMU 'CM_ACCController_V17', DDict.AccelCtrl.ACC.DesiredAx: No such destination quantity
+ERROR		FMU 'CM_ACCController_V17', DDict.AccelCtrl.ACC.DesiredDist: No such destination quantity
+ERROR		FMU 'CM_ACCController_V17', DDict.AccelCtrl.ACC.DesiredSpd: No such destination quantity
+ERROR		FMU 'CM_ACCController_V17', DDict.AccelCtrl.ACC.DesiredTGap: No such destination quantity
+ERROR		FMU 'CM_ACCController_V17', DDict.AccelCtrl.ACC.IsActive: No such destination quantity
+ERROR		FMU 'CM_ACCController_V17', DDict.AccelCtrl.ACC.Time2Collision: No such destination quantity
+ERROR		FMU 'CM_ACCController_V17', DDict.AccelCtrl.DesiredAx: No such destination quantity
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_001	2026-06-29 18:06:08
+TIME	0.441
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-180608.log'
+TIME	0.008
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782731168
+ERROR		TestManagerCmds: unknown var "Debug.EffectiveTimeGap"
+ERROR		TestManagerCmds: unknown var "Debug.Target.DistX"
+ERROR		TestManagerCmds: unknown var "Debug.SafeDistance"
+ERROR		TestManagerCmds: unknown var "Debug.Target.DistX"
+ERROR		TestManagerCmds: unknown var "Debug.Target.DistX"
+SIM_ABORT	OSC_Imported/longitudinal_feature/ACC/acc_csc_001	0s	0m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_001	2026-06-29 18:06:12
+TIME	0.434
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-180612.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782731172
+ERROR		TestManagerCmds: unknown var "Debug.EffectiveTimeGap"
+ERROR		TestManagerCmds: unknown var "Debug.Target.DistX"
+ERROR		TestManagerCmds: unknown var "Debug.SafeDistance"
+ERROR		TestManagerCmds: unknown var "Debug.Target.DistX"
+ERROR		TestManagerCmds: unknown var "Debug.Target.DistX"
+SIM_ABORT	OSC_Imported/longitudinal_feature/ACC/acc_csc_001	0s	0m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_001	2026-06-29 18:06:17
+TIME	0.474
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-180617.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782731177
+ERROR		TestManagerCmds: unknown var "Debug.EffectiveTimeGap"
+ERROR		TestManagerCmds: unknown var "Debug.Target.DistX"
+ERROR		TestManagerCmds: unknown var "Debug.SafeDistance"
+ERROR		TestManagerCmds: unknown var "Debug.Target.DistX"
+ERROR		TestManagerCmds: unknown var "Debug.Target.DistX"
+SIM_ABORT	OSC_Imported/longitudinal_feature/ACC/acc_csc_001	0s	0m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_001	2026-06-29 18:06:22
+TIME	0.445
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-180622.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782731182
+ERROR		TestManagerCmds: unknown var "Debug.EffectiveTimeGap"
+ERROR		TestManagerCmds: unknown var "Debug.Target.DistX"
+ERROR		TestManagerCmds: unknown var "Debug.SafeDistance"
+ERROR		TestManagerCmds: unknown var "Debug.Target.DistX"
+ERROR		TestManagerCmds: unknown var "Debug.Target.DistX"
+SIM_ABORT	OSC_Imported/longitudinal_feature/ACC/acc_csc_001	0s	0m
+TIME	196.409
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_001	2026-06-29 18:39:06
+TIME	196.409
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-183906.log'
+TIME	0.005
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782733146
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_001
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_001	50.002s	739.976m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_001	2026-06-29 18:39:17
+TIME	50.426
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-183917.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782733157
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_001
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_001	50.002s	765.323m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_001	2026-06-29 18:39:28
+TIME	50.388
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-183928.log'
+TIME	0.005
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782733168
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_001
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_001	50.002s	970.477m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_001	2026-06-29 18:39:39
+TIME	50.392
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-183939.log'
+TIME	0.005
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782733179
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_001
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_001	50.002s	1198.54m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_001	2026-06-29 18:39:51
+TIME	50.398
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-183951.log'
+TIME	0.005
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782733191
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_001
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_001	50.002s	1419.82m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_002	2026-06-29 18:40:02
+TIME	50.419
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-184002.log'
+TIME	0.005
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782733202
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_002
+
+TIME	6.806
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_002	6.798s	61.9576m
+TIME	491.674
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_001	2026-06-29 20:00:54
+TIME	491.674
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200054.log'
+TIME	0.008
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738054
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_001
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_001	50.002s	739.976m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_001	2026-06-29 20:01:06
+TIME	50.475
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200106.log'
+TIME	0.008
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738066
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_001
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_001	50.002s	765.323m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_001	2026-06-29 20:01:18
+TIME	50.436
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200118.log'
+TIME	0.008
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738078
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_001
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_001	50.002s	970.477m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_001	2026-06-29 20:01:30
+TIME	50.441
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200130.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738090
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_001
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_001	50.002s	1198.54m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_001	2026-06-29 20:01:42
+TIME	50.420
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200142.log'
+TIME	0.005
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738102
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_001
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_001	50.002s	1419.82m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_002	2026-06-29 20:01:53
+TIME	50.446
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200153.log'
+TIME	0.005
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738113
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_002
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_002	50.002s	335.697m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_002	2026-06-29 20:02:05
+TIME	50.432
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200205.log'
+TIME	0.005
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738125
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_002
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_002	50.002s	770.164m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_002	2026-06-29 20:02:16
+TIME	50.446
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200216.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738136
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_002
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_002	50.002s	728.926m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_002	2026-06-29 20:02:28
+TIME	50.424
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200228.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738148
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_002
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_002	50.002s	879.601m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_002	2026-06-29 20:02:40
+TIME	50.447
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200240.log'
+TIME	0.008
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738160
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_002
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_002	50.002s	1131.21m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_003	2026-06-29 20:02:52
+TIME	50.475
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200252.log'
+TIME	0.008
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738172
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_003
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_003	50.002s	600.313m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_003	2026-06-29 20:03:03
+TIME	50.428
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200303.log'
+TIME	0.008
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738183
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_003
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_003	50.002s	758.462m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_003	2026-06-29 20:03:15
+TIME	50.453
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200315.log'
+TIME	0.005
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738195
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_003
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_003	50.002s	999.913m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_003	2026-06-29 20:03:27
+TIME	50.424
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200327.log'
+TIME	0.008
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738207
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_003
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_003	50.002s	1248.15m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_003	2026-06-29 20:03:38
+TIME	50.445
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200338.log'
+TIME	0.008
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738218
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_003
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_003	50.002s	1495.57m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_004	2026-06-29 20:03:50
+TIME	50.477
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200350.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738230
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_004
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_004	50.002s	600.358m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_004	2026-06-29 20:04:02
+TIME	50.420
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200402.log'
+TIME	0.008
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738242
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_004
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_004	50.002s	750.783m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_004	2026-06-29 20:04:13
+TIME	50.418
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200413.log'
+TIME	0.005
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738253
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_004
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_004	50.002s	1004.55m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_004	2026-06-29 20:04:24
+TIME	50.421
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200424.log'
+TIME	0.008
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738264
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_004
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_004	50.002s	1248.15m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_004	2026-06-29 20:04:36
+TIME	50.420
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200436.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738276
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_004
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_004	50.002s	1495.52m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_005	2026-06-29 20:04:48
+TIME	50.470
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200448.log'
+TIME	0.008
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738288
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_005
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_005	50.002s	491.748m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_005	2026-06-29 20:05:00
+TIME	50.425
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200500.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738300
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_005
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_005	50.002s	490.851m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_005	2026-06-29 20:05:12
+TIME	50.463
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200512.log'
+TIME	0.005
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738312
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_005
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_005	50.002s	642.514m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_005	2026-06-29 20:05:24
+TIME	50.427
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200524.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738324
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_005
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_005	50.002s	936.446m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_005	2026-06-29 20:05:36
+TIME	50.457
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200536.log'
+TIME	0.008
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738336
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_005
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_005	50.002s	1243.24m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_006	2026-06-29 20:05:49
+TIME	50.481
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200549.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738349
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_006
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_006	50.002s	492.073m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_006	2026-06-29 20:06:00
+TIME	50.428
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200600.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738360
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_006
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_006	50.002s	519.032m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_006	2026-06-29 20:06:13
+TIME	50.432
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200613.log'
+TIME	0.008
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738373
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_006
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_006	50.002s	645.207m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_006	2026-06-29 20:06:25
+TIME	50.430
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200625.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738385
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_006
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_006	50.002s	934.275m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_006	2026-06-29 20:06:37
+TIME	50.455
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200637.log'
+TIME	0.005
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738397
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_006
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_006	50.002s	1191.34m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_007	2026-06-29 20:06:49
+TIME	50.482
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200649.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738409
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_007
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_007	50.002s	1000.54m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_007	2026-06-29 20:07:01
+TIME	50.424
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200701.log'
+TIME	0.008
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738421
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_007
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_007	50.002s	1248.18m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_007	2026-06-29 20:07:12
+TIME	50.430
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200712.log'
+TIME	0.008
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738432
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_007
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_007	50.002s	1500.15m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_007	2026-06-29 20:07:24
+TIME	50.428
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200724.log'
+TIME	0.005
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738444
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_007
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_007	50.002s	1099.66m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_007	2026-06-29 20:07:35
+TIME	50.431
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200735.log'
+TIME	0.005
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738455
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_007
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_007	50.002s	1397.3m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_008	2026-06-29 20:07:47
+TIME	50.470
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200747.log'
+TIME	0.005
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738467
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_008
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_008	50.002s	646.449m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_008	2026-06-29 20:07:58
+TIME	50.428
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200758.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738478
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_008
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_008	50.002s	784.175m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_008	2026-06-29 20:08:10
+TIME	50.428
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200810.log'
+TIME	0.008
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738490
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_008
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_008	50.002s	1026.52m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_008	2026-06-29 20:08:21
+TIME	50.427
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200821.log'
+TIME	0.005
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738501
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_008
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_008	50.002s	1261.54m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_008	2026-06-29 20:08:33
+TIME	50.425
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200833.log'
+TIME	0.005
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738513
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_008
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_008	50.002s	1498.62m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_009	2026-06-29 20:08:45
+TIME	50.474
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200845.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738525
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_009
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_009	50.002s	646.237m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_009	2026-06-29 20:08:56
+TIME	50.447
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200856.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738536
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_009
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_009	50.002s	784.111m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_009	2026-06-29 20:09:08
+TIME	50.429
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200908.log'
+TIME	0.005
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738548
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_009
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_009	50.002s	1026.74m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_009	2026-06-29 20:09:19
+TIME	50.431
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-200919.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782738559
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_009
+
+TIME	46.863
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_009	46.855s	1178.6m
+TIME	287.459
+SIM_START	acc_csc_004_001	2026-06-29 20:49:32
+TIME	287.459
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-204932.log'
+TIME	0.003
+		Environment Generic: model disabled for entire Test Run (works only on route)
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782740972
+TIME	0.000
+SIMULATE	acc_csc_004_001
+
+TIME	14.344
+SIM_END		acc_csc_004_001	14.341s	206.426m
+TIME	18.528
+SIM_START	acc_csc_002_001	2026-06-29 20:50:30
+TIME	18.528
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-205030.log'
+TIME	0.003
+		Environment Generic: model disabled for entire Test Run (works only on route)
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782741030
+TIME	0.000
+SIMULATE	acc_csc_002_001
+
+TIME	50.004
+SIM_END		acc_csc_002_001	50.002s	424.714m
+TIME	54.359
+SIM_START	acc_csc_002_001	2026-06-29 20:52:05
+TIME	54.359
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-205205.log'
+		Environment Generic: model disabled for entire Test Run (works only on route)
+TIME	0.003
+		Road Sensor: evaluation of route/path disabled (works only on route)
+ERROR		PowerTrain.Control Generic: supports only Generic powertrain
+SIM_ABORT	acc_csc_002_001	0s	424.714m
+TIME	2.194
+SIM_START	acc_csc_002_001	2026-06-29 20:52:27
+TIME	2.194
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-205227.log'
+		Environment Generic: model disabled for entire Test Run (works only on route)
+TIME	0.003
+		Road Sensor: evaluation of route/path disabled (works only on route)
+ERROR		Missing entry 'PowerTrain.Gearbox.0.iForwardGears', file 'Data/Vehicle/TeslaY.ADAS_ACC'
+ERROR		No entry 'PowerTrain.DL.iDiff', file 'Data/Vehicle/TeslaY.ADAS_ACC'
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782741147
+SIM_ABORT	acc_csc_002_001	0s	0m
+TIME	2.799
+SIM_START	acc_csc_002_001	2026-06-29 20:52:49
+TIME	2.799
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-205249.log'
+		Environment Generic: model disabled for entire Test Run (works only on route)
+TIME	0.003
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782741169
+TIME	0.000
+SIMULATE	acc_csc_002_001
+
+TIME	50.005
+SIM_END		acc_csc_002_001	50.002s	519.347m
+TIME	59.794
+SIM_START	acc_csc_002_001	2026-06-29 20:55:19
+TIME	59.794
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-205519.log'
+TIME	0.003
+		Environment Generic: model disabled for entire Test Run (works only on route)
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782741319
+TIME	0.000
+SIMULATE	acc_csc_002_001
+
+TIME	50.005
+SIM_END		acc_csc_002_001	50.002s	519.323m
+TIME	68.822
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_001	2026-06-29 20:58:47
+TIME	68.822
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-205847.log'
+TIME	0.008
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782741527
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_001
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_001	50.002s	739.087m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_001	2026-06-29 20:59:05
+TIME	50.522
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-205905.log'
+TIME	0.005
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782741545
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_001
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_001	50.002s	763.918m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_001	2026-06-29 20:59:17
+TIME	50.514
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-205917.log'
+TIME	0.008
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782741557
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_001
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_001	50.002s	967.891m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_001	2026-06-29 20:59:29
+TIME	50.512
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-205929.log'
+TIME	0.008
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782741569
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_001
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_001	50.002s	1196m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_001	2026-06-29 20:59:42
+TIME	50.504
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-205942.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782741582
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_001
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_001	50.002s	1417.37m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_002	2026-06-29 20:59:54
+TIME	50.532
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-205954.log'
+TIME	0.008
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782741594
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_002
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_002	50.002s	363.835m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_002	2026-06-29 21:00:07
+TIME	50.517
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210007.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782741607
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_002
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_002	50.002s	518.8m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_002	2026-06-29 21:00:20
+TIME	50.528
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210020.log'
+TIME	0.005
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782741620
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_002
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_002	50.002s	740.658m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_002	2026-06-29 21:00:32
+TIME	50.511
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210032.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782741632
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_002
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_002	50.002s	769.676m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_002	2026-06-29 21:00:44
+TIME	50.516
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210044.log'
+TIME	0.008
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782741644
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_002
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_002	50.002s	784.433m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_003	2026-06-29 21:00:57
+TIME	50.538
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210057.log'
+TIME	0.008
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782741657
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_003
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_003	50.002s	414.848m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_003	2026-06-29 21:01:09
+TIME	50.502
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210109.log'
+TIME	0.005
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782741669
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_003
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_003	50.002s	460.652m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_003	2026-06-29 21:01:22
+TIME	50.526
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210122.log'
+TIME	0.008
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782741682
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_003
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_003	50.002s	591.372m
+TIME	60.441
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_003	2026-06-29 21:03:13
+TIME	60.441
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210313.log'
+TIME	0.002
+		Environment Generic: model disabled for entire Test Run (works only on route)
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782741793
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_003	0s	0m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_001	2026-06-29 21:03:25
+TIME	1.137
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210325.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782741805
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_001
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_001	50.002s	748.388m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_001	2026-06-29 21:03:37
+TIME	50.504
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210337.log'
+TIME	0.005
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782741817
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_001
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_001	50.002s	764.525m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_001	2026-06-29 21:03:50
+TIME	50.511
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210350.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782741830
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_001
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_001	50.002s	965.956m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_001	2026-06-29 21:04:02
+TIME	50.515
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210402.log'
+TIME	0.005
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782741842
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_001
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_001	50.002s	1183.66m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_001	2026-06-29 21:04:15
+TIME	50.515
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210415.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782741855
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_001
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_001	50.002s	1397.97m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_002	2026-06-29 21:04:27
+TIME	50.540
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210427.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782741867
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_002
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_002	50.002s	344.456m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_002	2026-06-29 21:04:40
+TIME	50.527
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210440.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782741880
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_002
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_002	50.002s	429.883m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_002	2026-06-29 21:04:52
+TIME	50.528
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210452.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782741892
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_002
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_002	50.002s	725.379m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_002	2026-06-29 21:05:05
+TIME	50.527
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210505.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782741905
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_002
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_002	50.002s	871.268m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_002	2026-06-29 21:05:17
+TIME	50.499
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210517.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782741917
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_002
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_002	50.002s	1095.63m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_003	2026-06-29 21:05:29
+TIME	50.544
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210529.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782741929
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_003
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_003	50.002s	596.932m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_003	2026-06-29 21:05:42
+TIME	50.504
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210542.log'
+TIME	0.005
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782741942
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_003
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_003	50.002s	767.114m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_003	2026-06-29 21:06:02
+TIME	51.193
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210602.log'
+TIME	0.008
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782741962
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_003
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_003	50.002s	1014.39m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_003	2026-06-29 21:06:13
+TIME	50.427
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210613.log'
+TIME	0.005
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782741973
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_003
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_003	50.002s	1252.55m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_003	2026-06-29 21:06:23
+TIME	50.436
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210623.log'
+TIME	0.005
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782741983
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_003
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_003	50.002s	1492.25m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_004	2026-06-29 21:06:34
+TIME	50.447
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210634.log'
+TIME	0.008
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782741994
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_004
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_004	50.002s	596.932m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_004	2026-06-29 21:06:44
+TIME	50.437
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210644.log'
+TIME	0.005
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782742004
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_004
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_004	50.002s	767.114m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_004	2026-06-29 21:06:54
+TIME	50.428
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210654.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782742014
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_004
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_004	50.002s	1014.39m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_004	2026-06-29 21:07:05
+TIME	50.437
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210705.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782742025
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_004
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_004	50.002s	1252.55m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_004	2026-06-29 21:07:15
+TIME	50.430
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210715.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782742035
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_004
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_004	50.002s	1492.02m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_005	2026-06-29 21:07:26
+TIME	50.463
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210726.log'
+TIME	0.005
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782742046
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_005
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_005	50.002s	404.858m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_005	2026-06-29 21:07:36
+TIME	50.428
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210736.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782742056
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_005
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_005	50.002s	474.637m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_005	2026-06-29 21:07:47
+TIME	50.434
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210747.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782742067
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_005
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_005	50.002s	667.659m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_005	2026-06-29 21:07:58
+TIME	50.431
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210758.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782742078
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_005
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_005	50.002s	889.262m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_005	2026-06-29 21:08:09
+TIME	50.441
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210809.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782742089
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_005
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_005	50.002s	1111.97m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_006	2026-06-29 21:08:20
+TIME	50.457
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210820.log'
+TIME	0.008
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782742100
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_006
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_006	50.002s	405.705m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_006	2026-06-29 21:08:30
+TIME	50.434
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210830.log'
+TIME	0.005
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782742110
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_006
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_006	50.002s	474.655m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_006	2026-06-29 21:08:41
+TIME	50.429
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210841.log'
+TIME	0.008
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782742121
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_006
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_006	50.002s	667.418m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_006	2026-06-29 21:08:52
+TIME	50.436
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210852.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782742132
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_006
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_006	50.002s	888.56m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_006	2026-06-29 21:09:03
+TIME	50.435
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210903.log'
+TIME	0.005
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782742143
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_006
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_006	50.002s	1137.15m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_007	2026-06-29 21:09:14
+TIME	50.455
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210914.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782742154
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_007
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_007	50.002s	1016.69m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_007	2026-06-29 21:09:24
+TIME	50.432
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210924.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782742164
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_007
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_007	50.002s	1247.78m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_007	2026-06-29 21:09:34
+TIME	50.428
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210934.log'
+TIME	0.005
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782742174
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_007
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_007	50.002s	1498.83m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_007	2026-06-29 21:09:44
+TIME	50.429
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210944.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782742184
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_007
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_007	50.002s	1114.72m
+SIM_START	OSC_Imported/longitudinal_feature/ACC/acc_csc_007	2026-06-29 21:09:55
+TIME	50.436
+WARNING		FMU: Sending all FMU log output to file 'FMU_20260629-210955.log'
+TIME	0.006
+		Road Sensor: evaluation of route/path disabled (works only on route)
+WARNING		Ground Truth Sensor: In function GroundTruthSensor_FindIndexForName the name VehSensor_GT might be ambiguous. It can match sensor names of vehicle and trailer. Consider using Vhcl.VehSensor_GT, Tr.VehSensor_GT, Tr2.VehSensor_GT., ... instead.
+WARNING		FMU 'CM_ACCController_V17': Debug logging enabled
+		Current random seed value = 1782742195
+TIME	0.000
+SIMULATE	OSC_Imported/longitudinal_feature/ACC/acc_csc_007
+
+TIME	50.010
+SIM_END		OSC_Imported/longitudinal_feature/ACC/acc_csc_007	50.002s	1402.35m
+SHUTDOWN	CarMaker quick shutdown initiated
+

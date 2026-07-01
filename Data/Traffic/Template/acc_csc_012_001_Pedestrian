@@ -1,0 +1,18 @@
+#INFOFILE1.1 (UTF-8) - Do not remove this line!
+FileIdent = CarMaker-TrafficTemplate 15
+FileCreator = OpenSCENARIO Converter 15.1.0
+Info = Pedestrian
+Color = 1.0 0.0 0.0
+ObjectClass = People
+ObjectKind = Movable
+RCSMap.FName = RCS_Pedestrian
+Movie.Geometry = 3D/People/Pedestrian_Male_Casual_01.manim
+Basics.Dimension = 0.300 0.500 1.800
+Basics.Offset = 0.000 0.000
+Basics.Fr12CoM = 0.150
+Motion.Kind = Pedestrian
+LVD.AxMax = 0
+LVD.vMax = 0
+LVD.Pmax = 0
+LVD.tBuildUp = 0
+SDweight = 0.15
